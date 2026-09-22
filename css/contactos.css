@@ -7,12 +7,12 @@
     ============================================ */
 
 /* ===== Hero ===== */
-.hero-section {
+.contactos-hero {
   padding: var(--spacing-3xl) 0 var(--spacing-2xl);
   background: linear-gradient(180deg, rgba(17,34,64,0.04) 0%, rgba(17,34,64,0) 100%);
 }
 
-.hero-section h1 {
+.contactos-hero h1 {
   margin: 0 0 var(--spacing-sm);
   font-size: var(--font-size-3xl);
   line-height: var(--line-height-tight);
@@ -20,14 +20,14 @@
   font-weight: var(--font-weight-bold);
 }
 
-.hero-section .hero-description {
+.contactos-hero .hero-description {
   margin: 0;
   color: var(--text-secondary);
   font-size: var(--font-size-lg);
 }
 
 /* ===== Main Section ===== */
-.content-section {
+.contactos-content {
   padding: var(--spacing-2xl) 0 var(--spacing-3xl);
 }
 

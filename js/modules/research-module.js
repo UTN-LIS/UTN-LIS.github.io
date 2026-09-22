@@ -7,9 +7,10 @@
 
 class ResearchModule {
   constructor() {
-    // State / signatures to avoid redundant renders
-    this._areaSignature = "all";
-    this._projSignature = "all";
+    // State / signatures to avoid redundant renders (null = not yet rendered,
+    // so the initial render with filter "all" isn't skipped as a dupe)
+    this._areaSignature = null;
+    this._projSignature = null;
 
     // Data
     this.data = null;
@@ -50,8 +51,8 @@ class ResearchModule {
     this.data = null;
     this.areasEl = this.methodEl = this.projectsEl = this.pubsEl = null;
     this.areaTabs = this.projectTabs = [];
-    this._areaSignature = "all";
-    this._projSignature = "all";
+    this._areaSignature = null;
+    this._projSignature = null;
   }
 
   /* ---------------- Data ---------------- */
@@ -167,15 +168,17 @@ class ResearchModule {
     let rows = this.data.currentProjects.slice();
     if (filter !== "all") rows = rows.filter((p) => p.status === filter);
 
-    this.projectsEl.innerHTML = rows.map((p) => this._projectCard(p)).join("");
+    this.projectsEl.innerHTML = rows.length
+      ? rows.map((p) => this._projectCard(p)).join("")
+      : `<p class="empty-state">No hay proyectos para este filtro.</p>`;
   }
 
   renderRecentPublications() {
     if (!this.pubsEl || !Array.isArray(this.data?.recentPublications)) return;
 
-    this.pubsEl.innerHTML = this.data.recentPublications
-      .map((pub) => this._pubCard(pub))
-      .join("");
+    this.pubsEl.innerHTML = this.data.recentPublications.length
+      ? this.data.recentPublications.map((pub) => this._pubCard(pub)).join("")
+      : `<p class="empty-state">Próximamente vamos a sumar publicaciones recientes acá.</p>`;
   }
 
   /* ---------------- Templates ---------------- */
@@ -197,8 +200,8 @@ class ResearchModule {
 
   _projectCard(p) {
     const statusClass = `status-${p.status ?? "unknown"}`;
-    const statusText =
-      p.status === "active" ? "En desarrollo" : p.status === "planning" ? "En planificación" : (p.status ?? "");
+    const STATUS_LABELS = { active: "En desarrollo", planning: "En planificación", completed: "Finalizado" };
+    const statusText = STATUS_LABELS[p.status] ?? (p.status ?? "");
     const techs = Array.isArray(p.technologies) ? p.technologies : [];
     const partners = Array.isArray(p.partners) ? p.partners : [];
 
@@ -213,7 +216,7 @@ class ResearchModule {
           ${techs.map((t) => `<span class="tech-badge">${t}</span>`).join("")}
         </div>
         <div class="project-meta">
-          ${partners.length ? `<span class="project-partners">Socios: ${partners.join(", ")}</span>` : ""}
+          ${partners.length ? `<span class="project-partners">Autores: ${partners.join(", ")}</span>` : ""}
           ${p.startDate ? `<span class="project-timeline">Inicio: ${this._formatMonth(p.startDate)}</span>` : ""}
         </div>
       </div>`;

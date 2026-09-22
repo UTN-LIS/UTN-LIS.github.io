@@ -11,11 +11,17 @@
     <section class="research-areas-section">
         <div class="text-center mb-5">
             <h2>Líneas de Investigación</h2>
-            <p class="lead">En desarrollo</p>
+            <p class="lead">Los temas en los que trabajan nuestros proyectos de investigación.</p>
 
             <!-- Area Filters -->
             <div class="area-filters">
                 <button class="area-filter active" data-filter="all">Todas</button>
+                <button class="area-filter" data-filter="ia-generativa">IA Generativa y LLMs</button>
+                <button class="area-filter" data-filter="rag">RAG</button>
+                <button class="area-filter" data-filter="codigo">Código con IA</button>
+                <button class="area-filter" data-filter="seguridad">Seguridad</button>
+                <button class="area-filter" data-filter="educacion">Educación</button>
+                <button class="area-filter" data-filter="eficiencia">Modelos Eficientes</button>
             </div>
         </div>
 
@@ -25,5 +31,39 @@
                 <p>Cargando áreas de investigación...</p>
             </div>
         </div>
+    </section>
+
+    <!-- Methodology -->
+    <section class="research-methodology">
+        <div id="methodology-content">
+            <div class="loading-message"><p>Cargando metodología...</p></div>
+        </div>
+    </section>
+
+    <!-- Current Projects -->
+    <section class="projects-section">
+        <div class="text-center mb-5">
+            <h2>Proyectos en Curso</h2>
+            <p class="lead">Investigaciones que están desarrollando nuestros integrantes actualmente.</p>
+
+            <div class="project-filters">
+                <button class="project-filter active" data-filter="all">Todos</button>
+                <button class="project-filter" data-filter="active">En desarrollo</button>
+                <button class="project-filter" data-filter="completed">Finalizados</button>
+                <button class="project-filter" data-filter="planning">En planificación</button>
+            </div>
+        </div>
+
+        <div class="projects-grid" id="projects-content">
+            <div class="loading-message"><p>Cargando proyectos...</p></div>
+        </div>
+    </section>
+
+    <!-- Recent Publications -->
+    <section class="recent-publications-section">
+        <div class="text-center mb-5">
+            <h2>Publicaciones Recientes</h2>
+        </div>
+        <div class="recent-publications-grid" id="recent-publications-content"></div>
     </section>
 </div>

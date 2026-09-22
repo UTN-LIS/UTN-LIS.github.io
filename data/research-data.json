@@ -1,0 +1,340 @@
+{
+  "hero": {
+    "title": "Investigación en el LIS",
+    "description": "Proyectos de investigación aplicada en inteligencia artificial, ingeniería de software y seguridad, desarrollados por estudiantes y docentes de la UTN Facultad Regional Córdoba."
+  },
+  "researchAreas": [
+    {
+      "id": "ia-generativa",
+      "icon": "🤖",
+      "title": "IA Generativa y LLMs",
+      "description": "Uso de modelos de lenguaje (LLMs) y modelos livianos (SLMs) para resolver problemas concretos: desde prompting y generación de contenido hasta agentes conversacionales.",
+      "topics": ["Prompt Engineering", "LLMs", "Modelos livianos (SLM)", "Agentes conversacionales", "Function Calling"],
+      "featured": true
+    },
+    {
+      "id": "rag",
+      "icon": "🔎",
+      "title": "RAG y Recuperación de Información",
+      "description": "Arquitecturas de Retrieval-Augmented Generation aplicadas a distintos dominios: código, documentos, infraestructura propia y estrategias de recuperación más precisas.",
+      "topics": ["RAG", "Embeddings", "Vector Search", "LangChain", "Parsing de documentos"],
+      "featured": true
+    },
+    {
+      "id": "codigo",
+      "icon": "🧑‍💻",
+      "title": "Análisis y Calidad de Código con IA",
+      "description": "Herramientas que usan IA para entender, comparar y mejorar código: detección de similitud, sugerencia de patrones de diseño y generación asistida.",
+      "topics": ["Análisis estático", "Patrones de diseño", "Comparación de código", "AST", "Embeddings de código"],
+      "featured": true
+    },
+    {
+      "id": "seguridad",
+      "icon": "🔐",
+      "title": "Seguridad de IA y de Software",
+      "description": "Seguridad desde dos ángulos: usar IA para encontrar vulnerabilidades en código, y proteger a los propios sistemas de IA de ataques como prompt injection.",
+      "topics": ["SAST", "CWE/OWASP", "Prompt Injection", "Detección de contenido generado por IA", "Guardrails"],
+      "featured": false
+    },
+    {
+      "id": "educacion",
+      "icon": "🎓",
+      "title": "IA Aplicada a la Educación",
+      "description": "Aplicaciones de IA orientadas a la enseñanza y evaluación: corrección automática de exámenes, simulación de escenarios de práctica y generación de material didáctico.",
+      "topics": ["Corrección automática", "Simulación conversacional", "Generación de material educativo", "Evaluación asistida"],
+      "featured": false
+    },
+    {
+      "id": "eficiencia",
+      "icon": "⚙️",
+      "title": "Fine-tuning y Modelos Eficientes",
+      "description": "Técnicas para entrenar y desplegar modelos más chicos y económicos sin perder demasiada capacidad: fine-tuning eficiente, destilación e infraestructura propia.",
+      "topics": ["LoRA / QLoRA", "SDFT", "Ollama", "vLLM", "Infraestructura self-hosted"],
+      "featured": false
+    }
+  ],
+  "methodology": {
+    "title": "Cómo trabajamos",
+    "description": "Los proyectos del laboratorio nacen como iniciativas individuales o de a pequeños grupos, generalmente de estudiantes avanzados, que investigan un problema concreto de forma exploratoria y, cuando el resultado lo amerita, lo transforman en un paper para congresos como CoNaIISI.",
+    "approaches": [
+      { "icon": "🔍", "title": "Exploración aplicada", "description": "Cada proyecto arranca probando ideas concretas: notebooks, prototipos y experimentos, antes que grandes marcos teóricos." },
+      { "icon": "📝", "title": "Documentación en bitácora", "description": "El avance se registra en bitácoras y notas compartidas, lo que permite retomar el trabajo entre distintos integrantes." },
+      { "icon": "🎓", "title": "Publicación académica", "description": "Los proyectos más maduros se presentan como paper o póster en congresos como CoNaIISI." }
+    ]
+  },
+  "currentProjects": [
+    {
+      "title": "Resolución de Problemas Algorítmicos con LLMs",
+      "status": "completed",
+      "description": "Línea de investigación de tres publicaciones consecutivas (CoNaIISI 2024, JAIIO 2025 y CoNaIISI 2025) que compara modelos de lenguaje resolviendo problemas algorítmicos de Leetcode/ICPC, evaluando el impacto de hiperparámetros de decodificación (temperatura, top-p) y de estrategias de razonamiento explícito (chain-of-thought) en la tasa de resolución correcta.",
+      "technologies": ["LLM", "Gemini", "GPT", "Prompt Engineering", "Benchmarking"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2024-03-01"
+    },
+    {
+      "title": "RAG Aplicado a Casos de Uso Diversos",
+      "status": "completed",
+      "description": "Exploración de arquitecturas RAG (Retrieval-Augmented Generation) aplicadas a distintos casos: resolución de problemas de programación, consulta sobre un corpus literario y experimentación con LangChain.",
+      "technologies": ["RAG", "LangChain", "LLM", "Embeddings"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2024-03-01"
+    },
+    {
+      "title": "Prompts de IA para Generación de Video",
+      "status": "completed",
+      "description": "Experimento acotado sobre técnicas de prompting orientadas a la generación de video con inteligencia artificial.",
+      "technologies": ["Prompt Engineering", "IA Generativa", "Video"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2024-03-01"
+    },
+    {
+      "title": "IA Aplicada a Experiencia de Usuario (AI UX)",
+      "status": "completed",
+      "description": "Investigación exploratoria sobre cómo integrar agentes de IA (function calling, LangChain, automatización de interfaces) para que un asistente genere y despliegue componentes de interfaz de forma dinámica.",
+      "technologies": ["LLM", "UX", "Function Calling", "LangChain"],
+      "partners": ["Nicolás Juncos"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Servidor MCP para Pronóstico del Clima",
+      "status": "completed",
+      "description": "Servidor bajo el protocolo MCP (Model Context Protocol) que expone herramientas de consulta climática a un LLM, con preprocesamiento OCR para reducir el costo de contexto visual. Presentado como paper y póster en CoNaIISI 2025.",
+      "technologies": ["MCP", "LLM", "OCR", "Agentes"],
+      "partners": ["Tito Santino Montivero Miotto"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Corrección de Ejercicios de Unión con Flechas",
+      "status": "completed",
+      "description": "Prueba de concepto para corregir automáticamente ejercicios de unión con flechas manuscritos a partir de fotografías, combinando OCR, detección de líneas con la Transformada de Hough y un clasificador Random Forest. Con una precisión del 27% sobre un dataset acotado (30 instancias), los resultados son exploratorios pero ya fueron presentados en CoNaIISI 2025.",
+      "technologies": ["OCR", "Visión por Computadora", "Random Forest", "Corrección Automática"],
+      "partners": ["Juan Liendo"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "The Oracle: Comparación de Código con IA",
+      "status": "completed",
+      "description": "Aplicación web que compara pares de scripts en Python combinando métricas textuales clásicas (TF-IDF, Jaccard, Levenshtein) con análisis semántico mediante IA, incluyendo detección de técnicas de modificación de código. Presentado en CoNaIISI 2025, con demo en producción.",
+      "technologies": ["LLM", "NLP", "Análisis de Código", "React/TypeScript"],
+      "partners": ["Matías Negrelli", "Nicolás Hernández", "Emanuel Ravera"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Herramientas GA2LA para Análisis de Texto y Detección de Similitudes",
+      "status": "completed",
+      "description": "Conjunto de herramientas del Grupo de Aprendizaje Automático, Lenguajes y Autómatas (GA2LA) para generar material de entrenamiento de calidad y detectar similitudes en texto y código: el Programa de Mapeo de Datos (PMD) normaliza fuentes heterogéneas, el Banco de Pruebas de Algoritmos de Semejanza (BPAS) compara algoritmos de similitud mediante AHP, el Sistema de Detección de Similitudes (SDS) unifica los resultados de herramientas como Simian, Sherlock y JPlag, y el Sistema de Recuperación de Datos Web (SRDW) enriquece el contexto de LLMs vía MCP. The Oracle es una de las piezas de este mismo conjunto. Desarrollado dentro de dos proyectos homologados por la SCyT de la UTN; presentado en CoNaIISI 2025 y WICC 2026.",
+      "technologies": ["Detección de Similitudes", "MCP", "Minería de Datos", "AHP"],
+      "partners": ["Nicolás Hernández", "Julio Castillo", "Marina Cárdenas", "Sandra Olariaga"],
+      "startDate": "2024-03-01"
+    },
+    {
+      "title": "Embeddings de Pares Problema-Solución",
+      "status": "planning",
+      "description": "Investigación exploratoria sobre representación vectorial de problemas de programación y sus soluciones, evaluando si su dificultad y relación pueden inferirse por distancia en el espacio de embeddings.",
+      "technologies": ["Embeddings", "CodeBERT", "Similitud Semántica"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Chat²",
+      "status": "active",
+      "description": "Prototipo de chatbot con un mecanismo de identificación de contexto/página, en desarrollo.",
+      "technologies": ["Python", "Chatbot", "LLM"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Fine-tuning y RAG Local",
+      "status": "completed",
+      "description": "Notas exploratorias sobre construcción de pipelines RAG locales como base para experimentar con técnicas de fine-tuning de modelos de lenguaje.",
+      "technologies": ["RAG", "LLM locales", "Fine-tuning", "LangChain"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Tokenizador",
+      "status": "completed",
+      "description": "Implementación y experimentación con un tokenizador propio para modelos de lenguaje.",
+      "technologies": ["Tokenización", "NLP"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Automatización del Análisis de Puntos de Función",
+      "status": "completed",
+      "description": "Web Service que automatiza el Análisis de Puntos de Función (estándar NESMA) para proyectos ágiles: recibe user stories en lenguaje natural, usa un modelo de lenguaje (Mistral-7B) para clasificarlas en las categorías de FPA y calcula la estimación resultante. Segunda fase de una línea que antes cubría proyectos tradicionales basados en UML; presentado con paper y póster en CoNaIISI 2025 y ampliado en WICC 2026.",
+      "technologies": ["NESMA", "Puntos de Función", "Mistral-7B", "Spring Boot"],
+      "partners": ["Sofía Britos"],
+      "startDate": "2025-03-01"
+    },
+    {
+      "title": "Proyecto AVE — Asistente Virtual de Estudio",
+      "status": "active",
+      "description": "Asistente virtual de estudio basado en RAG para la UTN FRC, con diagnóstico de infraestructura self-hosted y diseño de un modelo de escalabilidad para más de 100 usuarios concurrentes, comparando hosting propio con servicios cloud.",
+      "technologies": ["RAG", "Ollama", "LLM self-hosted", "Escalabilidad"],
+      "partners": ["Emanuel Ravera", "Damián Nicolás Hernández", "Nicolás Horenstein"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Mapas Conceptuales Automáticos con Modelos de Lenguaje Pequeños",
+      "status": "completed",
+      "description": "Agente que genera mapas conceptuales a partir de texto libre mediante un pipeline híbrido: un modelo de lenguaje pequeño extrae conceptos y relaciones, y componentes programáticos construyen y validan el grafo. Paper preparado para CoNaIISI.",
+      "technologies": ["SLM", "Mapas conceptuales", "Prompt Engineering"],
+      "partners": ["Lautaro Gabriel Aldasoro"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Benchmark de Parsers de PDF para Sistemas RAG",
+      "status": "completed",
+      "description": "Benchmark que evalúa la fidelidad estructural de distintos parsers de PDF mediante evaluadores especializados por tipo de contenido, cuyos resultados fundamentan la elección del parser usado en el Proyecto AVE.",
+      "technologies": ["RAG", "Parsing de PDF", "OCR", "Benchmarking"],
+      "partners": ["Ignacio Ciminari"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Detección de Oportunidades de Patrones de Diseño",
+      "status": "planning",
+      "description": "Análisis estático que sugiere oportunidades de aplicar patrones de diseño (GoF) en código Java según la intención semántica del código, combinando parsing de AST, recuperación semántica y un LLM local.",
+      "technologies": ["Análisis estático", "Patrones de diseño", "LLM local", "RAG"],
+      "partners": ["Pedro Yanover"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Auditoría y Detección de Vulnerabilidades con LLM Locales",
+      "status": "planning",
+      "description": "Agentes de IA para análisis estático de seguridad (SAST) que detectan vulnerabilidades clasificadas según CWE/OWASP, estiman severidad con CVSS y sugieren parches de corrección.",
+      "technologies": ["SAST", "CWE/OWASP", "LLM locales"],
+      "partners": ["Franco Sosa"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Corrección Automatizada de Exámenes con IA",
+      "status": "completed",
+      "description": "Protocolo de estandarización y corrección automática de respuestas abiertas usando agentes LLM de pequeño tamaño (menos de 15 mil millones de parámetros), derivado de cinco experimentos comparativos: descompone el criterio de corrección en conceptos esenciales para lograr una correlación de 0,864 (Pearson) con la calificación humana. Paper camera-ready para CoNaIISI 2026.",
+      "technologies": ["LLM", "Corrección Automatizada", "Prompt Engineering", "Evaluación educativa"],
+      "partners": ["Santino Montivero", "Franco Sosa"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Simulación de Entrevistas Organizacionales con IA",
+      "status": "planning",
+      "description": "Sistema basado en RAG y prompting que simula entrevistas con 'empleados' de una organización ficticia mediante chatbots con personalidad y rol definidos, para practicar el relevamiento de procesos de negocio.",
+      "technologies": ["RAG", "Prompting", "Simulación conversacional"],
+      "partners": ["Juan Liendo"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Optimización de Fine-tuning por Auto-destilación (SDFT)",
+      "status": "active",
+      "description": "Técnicas de ajuste fino eficiente (LoRA, QLoRA) combinadas con auto-destilación para entrenar modelos de lenguaje pequeños especializados, reduciendo el costo frente a usar APIs de modelos grandes.",
+      "technologies": ["LoRA", "QLoRA", "SDFT", "vLLM"],
+      "partners": ["Juan Liendo"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Detección de Contenido Generado por IA",
+      "status": "planning",
+      "description": "Distinción entre textos generados por IA y escritos por personas, entrenando un modelo de lenguaje sobre ejemplos etiquetados y evaluando enfoques complementarios como marcas de agua en las salidas de los modelos.",
+      "technologies": ["BERT", "RoBERTa", "Watermarking"],
+      "partners": ["Agustín Oliva"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "RAG Adaptativo Disparado por Entropía para Generación de Código",
+      "status": "active",
+      "description": "Mecanismo de RAG que se activa dinámicamente durante la generación de código cuando la incertidumbre del modelo supera un umbral, evaluado sobre HumanEval con análisis de qué decisiones del modelo son realmente críticas.",
+      "technologies": ["RAG", "HumanEval", "Análisis de entropía"],
+      "partners": ["Matías Koroch"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Charla de Seguridad en LLMs",
+      "status": "planning",
+      "description": "Propuesta de una charla de divulgación sobre seguridad en modelos de lenguaje: técnicas de ataque (prompt injection, envenenamiento de modelos) y defensas en distintos niveles.",
+      "technologies": ["Prompt Injection", "Guardrails", "Seguridad de IA"],
+      "partners": ["Juan Liendo"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Traducción de Latín con Modelos de Lenguaje Pequeños",
+      "status": "active",
+      "description": "Evaluación de modelos de lenguaje livianos ejecutados localmente para traducir frases en latín clásico al español, comparando errores de traducción entre modelos de distinto tamaño.",
+      "technologies": ["Ollama", "Modelos livianos (SLM)", "Traducción automática"],
+      "partners": ["Dante Valdemarca"],
+      "startDate": "2026-03-01"
+    },
+    {
+      "title": "Fundamentos Biológicos de las Redes Neuronales",
+      "status": "planning",
+      "description": "Revisión de modelos de IA inspirados en el cerebro biológico, explorando alternativas a la retropropagación clásica como predictive coding, redes de Hopfield y máquinas de Boltzmann.",
+      "technologies": ["Redes de Hopfield", "Máquinas de Boltzmann", "Neurociencia computacional"],
+      "partners": ["Juan Liendo"],
+      "startDate": "2026-03-01"
+    }
+  ],
+  "recentPublications": [
+    {
+      "title": "Estandarización y corrección automática de respuestas abiertas mediante agentes LLM de pequeño tamaño",
+      "authors": ["Franco Sosa", "Santino Montivero"],
+      "venue": "CoNaIISI 2026",
+      "year": "2026",
+      "type": "conference"
+    },
+    {
+      "title": "Generación automática de mapas conceptuales con modelos de lenguaje pequeños",
+      "authors": ["Lautaro Gabriel Aldasoro"],
+      "venue": "CoNaIISI 2026 (en preparación)",
+      "year": "2026",
+      "type": "conference"
+    },
+    {
+      "title": "Benchmark de parsers de PDF para sistemas RAG",
+      "authors": ["Ignacio Ciminari"],
+      "venue": "En evaluación (revisión ciega)",
+      "year": "2026",
+      "type": "conference"
+    },
+    {
+      "title": "Impacto de las estrategias de razonamiento y los hiperparámetros de decodificación en la resolución de algoritmos con LLMs",
+      "authors": ["Matías Koroch"],
+      "venue": "CoNaIISI 2025",
+      "year": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "Corrección de ejercicios de unión con flechas a través de Machine Learning",
+      "authors": ["Juan Liendo"],
+      "venue": "CoNaIISI 2025",
+      "year": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "Automatización del análisis de Puntos de Función mediante IA: implementación de un Web Service",
+      "authors": ["Sofía Britos"],
+      "venue": "CoNaIISI 2025",
+      "year": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "The Oracle: comparación de scripts Python con métricas textuales y análisis semántico por IA",
+      "authors": ["Matías Negrelli", "Nicolás Hernández", "Emanuel Ravera"],
+      "venue": "CoNaIISI 2025",
+      "year": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "Servidor MCP para pronóstico del clima con preprocesamiento OCR",
+      "authors": ["Tito Santino Montivero Miotto"],
+      "venue": "CoNaIISI 2025",
+      "year": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "Uso del análisis de texto estructurado y no estructurado para la generación de material de entrenamiento para modelos de IA",
+      "authors": ["Nicolás Hernández", "Julio Castillo", "Marina Cárdenas", "Sofía Britos"],
+      "venue": "WICC 2026",
+      "year": "2026",
+      "type": "conference"
+    }
+  ]
+}
