@@ -1,0 +1,227 @@
+/* ============================================
+    LIS - Base Styles (base.css)
+    Fundamental CSS rules including resets, typography, colors, and global utilities
+    ============================================ */
+
+/* CSS Custom Properties (Variables) */
+:root {
+    --primary-color: #0F3057;
+    --primary-hover: #1A4980;
+    --primary-light: #E2EBF4;
+    --color-primary-600: #082542;
+    --secondary-color: #4F3222;
+    --secondary-hover: #6A4633;
+    --accent-color: #A3320B;
+    --accent-hover: #BD3D11;
+
+    /* Status Colors */
+    --success-color: #15803D;
+    --success-light: #DCFCE7;
+    --warning-color: #B45309;
+    --warning-light: #FEF3C7;
+    --danger-color: #B91C1C;
+    --danger-light: #FEE2E2;
+    --info-color: #0EA5E9;
+    --info-light: #E0F2FE;
+
+    /* Neutral Colors */
+    --neutral-50: #F8FAFC;
+    --neutral-100: #F1F5F9;
+    --neutral-200: #E2E8F0;
+    --neutral-300: #CBD5E1;
+    --neutral-400: #94A3B8;
+    --neutral-500: #64748B;
+    --neutral-600: #475569;
+    --neutral-700: #334155;
+    --neutral-800: #1E293B;
+    --neutral-900: #0F172A;
+    --neutral-950: #0B1120;
+
+    /* Text Colors */
+    --text-primary: var(--neutral-900);
+    --text-secondary: var(--neutral-700);
+    --text-muted: var(--neutral-500);
+    --text-light: var(--neutral-100);
+    --text-inverse: var(--neutral-50);
+
+    /* Background Colors */
+    --bg-white: #FFFFFF;
+    --bg-light: #F4F6FB;
+    --bg-gray: var(--neutral-100);
+    --bg-dark: var(--neutral-950);
+    --bg-primary: var(--primary-color);
+    --bg-secondary: var(--secondary-color);
+
+    /* Border Colors */
+    --border-color: var(--neutral-200);
+    --border-light: var(--neutral-100);
+    --border-dark: var(--neutral-300);
+    --border-focus: var(--primary-color);
+
+    /* Enhanced Spacing System */
+    --spacing-px: 1px;
+    --spacing-0: 0;
+    --spacing-xs: 0.25rem;  
+    --spacing-sm: 0.5rem;
+    --spacing-md: 0.75rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.25rem;
+    --spacing-2xl: 1.5rem;
+    --spacing-3xl: 2rem;
+    --spacing-4xl: 2.5rem;
+    --spacing-5xl: 3rem;
+    --spacing-6xl: 4rem;
+
+    /* Enhanced Font Sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 3.75rem;
+
+    /* Font Weights */
+    --font-weight-thin: 100;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-snug: 1.375;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.625;
+    --line-height-loose: 2;
+
+    /* Border Radius */
+    --border-radius-none: 0;
+    --border-radius-sm: 0.125rem;
+    --border-radius-md: 0.375rem;
+    --border-radius-lg: 0.5rem;
+    --border-radius-xl: 0.75rem;
+    --border-radius-2xl: 1rem;   
+    --border-radius-3xl: 1.5rem;
+    --border-radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-none: 0 0 #0000;
+    --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Z-index Scale */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+    --z-toast: 1080;
+
+    /* Breakpoints */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: var(--line-height-normal);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+    color: var(--text-primary);
+    background: linear-gradient(180deg, rgba(17,34,64,0.08) 0%, rgba(244,246,251,0.9) 45%, #ffffff 100%);
+    overflow-x: hidden;
+}
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+    letter-spacing: 0.01em;
+}
+
+h1 { font-size: var(--font-size-3xl); }
+h2 { font-size: var(--font-size-2xl); }
+h3 { font-size: var(--font-size-xl); }
+h4 { font-size: var(--font-size-lg); }
+
+p {
+    margin-bottom: var(--spacing-md);
+    color: var(--text-secondary);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color var(--transition-normal);
+}
+
+a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-xl);
+}
+
+li {
+    margin-bottom: var(--spacing-xs);
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Form Elements */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

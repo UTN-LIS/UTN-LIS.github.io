@@ -1,0 +1,25 @@
+/* ============================================
+    LIS - Utility Classes (utilities.css)
+    Utility classes for common styling needs including:
+    - Text utilities (alignment)
+    - Spacing utilities (margins)
+    ============================================ */
+
+/* Text Utilities */
+.text-center { text-align: center !important; }
+
+/* Spacing Utilities */
+.mb-5 { margin-bottom: var(--spacing-xl) !important; }
+
+/* Screen Reader Utilities */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

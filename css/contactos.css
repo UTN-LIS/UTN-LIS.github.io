@@ -1,0 +1,126 @@
+/* ============================================
+    LIS - Contact Page Styles (contactos.css)
+    Styles for the contact page including:
+    - Hero section
+    - Contact information card
+    - Responsive design
+    ============================================ */
+
+/* ===== Hero ===== */
+.hero-section {
+  padding: var(--spacing-3xl) 0 var(--spacing-2xl);
+  background: linear-gradient(180deg, rgba(17,34,64,0.04) 0%, rgba(17,34,64,0) 100%);
+}
+
+.hero-section h1 {
+  margin: 0 0 var(--spacing-sm);
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-tight);
+  color: var(--text-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.hero-section .hero-description {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: var(--font-size-lg);
+}
+
+/* ===== Main Section ===== */
+.content-section {
+  padding: var(--spacing-2xl) 0 var(--spacing-3xl);
+}
+
+/* Information container (main block) */
+.contact-info-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Contact Information Card */
+.contact-info {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--border-radius-xl);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-2xl);
+}
+
+/* Block title */
+.contact-info h2 {
+  margin: 0 0 var(--spacing-lg);
+  font-size: var(--font-size-2xl);
+  color: var(--text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Items inside the card (Address, Email, Hours) */
+.info-item + .info-item {
+  border-top: 1px solid var(--border-light);
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+}
+
+.info-content h4 {
+  margin: 0 0 var(--spacing-xs);
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.info-content p {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Links within the information (email and map) */
+.info-content a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.info-content a:hover {
+  color: var(--primary-hover);
+}
+
+/* Map link with subtle button style */
+.map-link {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius-md);
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.map-link:hover {
+  background: rgba(10, 37, 64, 0.06);
+  border-color: var(--primary-hover);
+  color: var(--primary-hover);
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: var(--spacing-2xl) 0 var(--spacing-xl);
+  }
+  .contact-info {
+    padding: var(--spacing-xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: var(--font-size-2xl);
+  }
+  .hero-section .hero-description {
+    font-size: var(--font-size-base);
+  }
+  .contact-info {
+    padding: var(--spacing-lg);
+  }
+}

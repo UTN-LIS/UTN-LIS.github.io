@@ -1,0 +1,30 @@
+<section class="hero-section">
+  <div class="container">
+    <h1>Publicaciones</h1>
+    <p class="hero-description">
+      Producción científica del laboratorio en revistas, congresos y libros.
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="publications-filters">
+    <div class="filter-tabs">
+      <!-- Regenerated dynamically according to the dataset -->
+      <button class="filter-tab active" data-filter="all">Todas</button>
+    </div>
+
+    <div class="year-filter">
+      <label for="pub-year-select">Año:</label>
+      <select id="pub-year-select" aria-label="Filtrar por año">
+        <!-- Options generated dynamically -->
+      </select>
+    </div>
+  </div>
+
+  <div class="publications-list" id="publications-content" aria-live="polite" aria-busy="true">
+    <div class="loading-message">
+      <p>Cargando publicaciones...</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,883 @@
+{
+  "2002": {
+    "title": "Proyectos 2002",
+    "description": "Proyectos desarrollados durante el año 2002.",
+    "proyectos": [
+      {"title": "ALGORITMOS DE BÚSQUEDA EN ESPACIOS MÉTRICOS", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_4.pdf"]},
+      {"title": "ANÁLISIS OPERATIVO DE LAS HERRAMIENTAS DE MICROSOFT, APLICADOS A LA INTELIGENCIA DE NEGOCIOS (AOHMIN)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_6.pdf"]},
+      {"title": "ATOMIND (APLICACIONES, TÉCNICAS Y OPERACIONES DE MINERÍA DE DATOS)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_12.pdf"]},
+      {"title": "BENCHMARKING DE CARRERAS DE INGENIERÍA INDUSTRIAL", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_10.pdf"]},
+      {"title": "CONSTRUCCIÓN DE UN COMPILADOR PARA MAQUINA ABSTRACTA RAM (RANDOM ACCESS MACHINE)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_3.pdf"]},
+      {"title": "CONTROL DE SILLA DE RUEDAS POR MEDIO DEL MOVIMIENTO OCULAR", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_8.pdf"]},
+      {"title": "ESPACIO VIRTUAL DEL DEPARTAMENTO DE INGENIERÍA ELECTRÓNICA", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_14.pdf"]},
+      {"title": "ESTUDIO PARA EL DESARROLLO DE UN SISTEMA EMBEBIDO APLICADO A LA ADQUISICIÓN Y PROCESAMIENTO DE DATOS", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_9.pdf"]},
+      {"title": "GRUPO INVESTIGACIÓN SQL SERVER", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_7.pdf"]},
+      {"title": "IDENTIFICACIÓN, ANÁLISIS DE IMÁGENES Y DE MOVIMIENTO", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_16.pdf"]},
+      {"title": "IMPLEMENTACIÓN DE UN ESPACIO VIRTUAL PARA EL TRABAJO DE UNA CÁTEDRA", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_5.pdf"]},
+      {"title": "MOTOR DE BASE DE DATOS Y OQL", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_1.pdf"]},
+      {"title": "RECONOCIENDO ROSTROS BAJO PERTURBACIÓN DEL MEDIO", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_20.pdf"]},
+      {"title": "ROBOT MANIPULADOR AUTOMATIZADO POR COMPUTADORA (M.A.C.)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_15.pdf"]},
+      {"title": "RoVoice", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_17.pdf"]},
+      {"title": "SGPI - SISTEMA DE GESTIÓN PATRIMONIAL INTEGRAL", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_13.pdf"]},
+      {"title": "SISTEMA COMPUTARIZADO PARA LA INVESTIGACIÓN DE LA ECOLOCACIÓN HUMANA", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_2.pdf"]},
+      {"title": "SISTEMA DE CONTROL INTELIGENTE DE TRAYECTORIAS (S.C.I.T.)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_19.pdf"]},
+      {"title": "S.I.V. (SISTEMA DE IDENTIFICACIÓN VEHICULAR)", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_18.pdf"]},
+      {"title": "SOFTWARE PARA DETERMINACIÓN DE CURVAS GRANULOMÉTRICAS EN APLICACIONES DE INGENIERÍA CIVIL", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2002/Proyectos2002_11.pdf"]}
+    ]
+  },
+  "2003": {
+    "title": "Proyectos 2003",
+    "description": "Proyectos desarrollados durante el año 2003.",
+    "proyectos": [
+      {"title": "ADMINISTRADOR DE BASES DE DATOS RELACIONALES Y GENERADOR DE CONSULTAS SQL.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_3.pdf"]},
+      {"title": "BENCHMARKING DE CARRERAS DE INGENIERÍA INDUSTRIAL.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_1.pdf"]},
+      {"title": "BRAZO ROBOT.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_18.pdf"]},
+      {"title": "CONTROL DE SILLA DE RUEDAS POR MEDICIÓN OCULAR.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_2.pdf"]},
+      {"title": "CRM ANALÍTICO.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_13.pdf"]},
+      {"title": "DESARROLLO DE UN SISTEMA DE GESTIÓN DE TRÁMITES.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_16.pdf"]},
+      {"title": "D.V.F.S.Q.L SERVER (DESARROLLO EN VISUAL FOXPRO Y SQL SERVER 2000).", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_10.pdf"]},
+      {"title": "ESPACIO VIRTUAL DE LA CARRERA DE INGENIERÍA ELECTRÓNICA.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_14.pdf"]},
+      {"title": "ESTUDIO DE C# APLICADO A UN SISTEMA DE GESTIÓN DE LA PRODUCCIÓN Y SISTEMA DE SOPORTE DE DECISIONES.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_8.pdf"]},
+      {"title": "GRUPO DE ESTUDIO SOBRE CLUSTERING.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_11.pdf"]},
+      {"title": "INVESTIGACIÓN Y REGISTRO DE ENTRADA.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_15.pdf"]},
+      {"title": "ORACLE - SQL SERVER.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_17.pdf"]},
+      {"title": "PORTAL WEB PARA SISTEMA DE VENTAS.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_4.pdf"]},
+      {"title": "PROCESAMIENTO DE IMÁGENES.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_6.pdf"]},
+      {"title": "SEHPDA: SISTEMA DE ENTRENAMIENTO DEL HABLA PARA DISCAPACITADOS AUDITIVOS.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_7.pdf"]},
+      {"title": "SOFTWARE DE CÓDIGO DE BARRA.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_9.pdf"]},
+      {"title": "SOLUCIONES DE BUSINESS INTELLIGENCE CON EL BALANCED SCORECARD.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_5.pdf"]},
+      {"title": "SOPORTE ON-LINE PARA LA ENSEÑANZA-APRENDIZAJE DE LA MATERIA COMUNICACIONES.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/Proyectos2003/Proyectos2003_12.pdf"]}
+    ]
+  },
+  "2004": {
+    "title": "Proyectos 2004",
+    "description": "Proyectos desarrollados durante el año 2004.",
+    "proyectos": [
+      {"title": "Búsqueda de relaciones entre las redes neuronales artificiales y los autómatas celulares (proyecto incentivado).", "abstract": "", "links": []},
+      {"title": "S.O.A.C. (Simulación Orientada al Aprendizaje de Computadoras).", "abstract": "", "links": []},
+      {"title": "Sistema de gestión de BD relacional y generador de consultas (proyecto incentivado).", "abstract": "", "links": []},
+      {"title": "Series de Fourier aplicadas a las comunicaciones.", "abstract": "", "links": []},
+      {"title": "Entrenamiento para concurso internacional de programación ACM-ICPC.", "abstract": "", "links": []},
+      {"title": "Programa Desarrollador cinco estrellas.", "abstract": "", "links": []},
+      {"title": "Proyectos de estudio acerca de herramientas de Microsoft / Soporte online para la enseñanza-aprendizaje de la materia Comunicaciones.", "abstract": "", "links": []},
+      {"title": "Software de soporte (SW) resolución de problemas / Sistema de monitoreo ambiental preventivo.", "abstract": "", "links": []},
+      {"title": "Sistema \"Prisma Cine\".", "abstract": "", "links": []},
+      {"title": "Sistema de trazabilidad del ganado vacuno.", "abstract": "", "links": []},
+      {"title": "Procesamiento digital de señales sonoras sobre plataforma PC / UTN Wireless / Lenguajes.", "abstract": "", "links": []},
+      {"title": "Sistema de monitoreo de energía solar.", "abstract": "", "links": []},
+      {"title": "Grupo de estudio en redes inalámbricas (WLAN).", "abstract": "", "links": []},
+      {"title": "Integración de .NET en sistemas de automación de la producción.", "abstract": "", "links": []}
+    ]
+  },
+  "2005": {
+    "title": "Proyectos 2005",
+    "description": "Proyectos desarrollados durante el año 2005.",
+    "proyectos": [
+      {"title": "Búsqueda de relaciones entre las redes neuronales artificiales y los autómatas celulares (proyecto incentivado).", "abstract": "", "links": []},
+      {"title": "Entrenamiento para concurso internacional de programación ACM-ICPC.", "abstract": "", "links": []},
+      {"title": "S.O.A.C. (Simulación Orientada al Aprendizaje de Computadoras).", "abstract": "", "links": []},
+      {"title": "Programa Desarrollador cinco estrellas.", "abstract": "", "links": []},
+      {"title": "Proyectos de estudio acerca de herramientas de Microsoft / Soporte online para la enseñanza-aprendizaje de la materia Comunicaciones.", "abstract": "", "links": []},
+      {"title": "Determinación de parámetros para modelos de pronósticos en series temporales y su aplicación a SSD (Panaholma).", "abstract": "", "links": []},
+      {"title": "Sistema de gestión de la producción \"MEDUSA\".", "abstract": "", "links": []},
+      {"title": "Redes neuronales y multicriterio.", "abstract": "", "links": []},
+      {"title": "SGH Wireless / Pocket PC.", "abstract": "", "links": []},
+      {"title": "Sistema de gestión de BD relacional y generador de consultas (proyecto incentivado).", "abstract": "", "links": []}
+    ]
+  },
+  "2006": {
+    "title": "Proyectos 2006",
+    "description": "Proyectos desarrollados durante el año 2006.",
+    "proyectos": [
+      {"title": "DESARROLLO DE UNA METODOLOGÍA DE APROVECHAMIENTO DE LOS METADATOS DE LOS DICCIONARIOS DE DATOS DE LAS BASES DE DATOS RELACIONALES PARA LOGRAR UN GENERADOR DE SENTENCIAS SQL DESIGNADO PROMETEO.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_7.pdf"]},
+      {"title": "INVESTIGACIÓN Y DESARROLLO DE ALGORITMOS DE KDD.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_8.pdf"]},
+      {"title": "CONJUNTOS DE ENTRENAMIENTO PARA EVALUACIÓN DE REDES MULTICAPA PERCEPTRÓN.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_9.pdf"]},
+      {"title": "RECUPERACIÓN Y ANÁLISIS DE INFORMACIÓN NO ESTRUCTURADA: DESARROLLO DE UN MOTOR DE BÚSQUEDA.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_10.pdf"]},
+      {"title": "AUTOEVALUACIÓN Y OPTIMIZACIÓN.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_11.pdf"]},
+      {"title": "EVALUACIÓN Y OPTIMIZACIÓN DE MARCAS DE AGUA PARA SEGURIDAD EN INTERNET.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_12.pdf"]},
+      {"title": "APORTES PARA LA MEJORA DE LA CALIDAD DE SERVICIO EN LAS REDES INALÁMBRICAS.", "abstract": "", "links": ["http://www.institucional.frc.utn.edu.ar/sistemas/Investigacion/PROYECTOS2006/PROYECTOS2006_13.pdf"]},
+      {"title": "PROYECTO SOAC (SIMULACIÓN ORIENTADA AL APRENDIZAJE DE COMPUTADORAS).", "abstract": "", "links": []},
+      {"title": "PROYECTO TECNO DB.", "abstract": "", "links": []},
+      {"title": "PROYECTO LAYER D.", "abstract": "", "links": []},
+      {"title": "HEMEROTECA.", "abstract": "", "links": []},
+      {"title": "TECNODB APLICACIÓN DE TÉCNICAS DE DATA MINING AL ESTUDIO DE FITOPATOLOGÍAS.", "abstract": "", "links": []},
+      {"title": "AUTENTICACIÓN DE USUARIOS A TRAVÉS DE DISPOSITIVOS MÓVILES.", "abstract": "", "links": []}
+    ]
+  },
+  "2007": {
+    "title": "Proyectos 2007",
+    "description": "Proyectos desarrollados durante el año 2007.",
+    "proyectos": [
+      {"title": "Desarrollo de una metodología de aprovechamiento de los metadatos de los diccionarios de datos de las bases de datos relacionales para lograr un generador de sentencias SQL designado Prometeo.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Tecno DB.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Empleo de RUP para el modelado de sistemas de tiempo real distribuido.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Aplicación de técnicas de data mining al estudio de fitopatologías.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Encriptación: el código secreto.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Hemeroteca Keyes.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Website MSLAB.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Proyecto Layer D.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]},
+      {"title": "Cálculos de ingeniería.", "abstract": "", "links": ["Archivos/Proyectos2007.pdf"]}
+    ]
+  },
+  "2008": {
+    "title": "Proyectos 2008",
+    "description": "Proyectos desarrollados durante el año 2008.",
+    "proyectos": [
+      {
+        "title": "TecnoDB.",
+        "abstract": "Motor de base de datos relacional experimental orientado a estudiar y practicar la resolución de consultas (SELECT, INSERT, UPDATE, DELETE) sobre tablas específicas. Incluye el desarrollo de un modelo de metadatos (tablas, columnas, constraints, índices) y la futura implementación de un módulo de log para medir tiempos de búsqueda, inserción, borrado y actualización con y sin distintos índices, permitiendo comparar algoritmos de indexación y proponer nuevas formas de ordenamiento de claves.",
+        "authors": ["Director: Ing. César Martínez Spessot"],
+        "links": []
+      },
+      {
+        "title": "Sistema distribuido en tiempo real semi-soft utilizando RUP.",
+        "abstract": "Aplicación de RUP al diseño e implementación de un sistema distribuido de tiempo real semi‑soft (control de un horno eléctrico) operado remotamente vía TCP/IP mediante un web service. Integra microcontroladores, software de control en Microsoft Visual C# .NET 2005 y componentes web ASP .NET 2005, mostrando la interacción entre software embebido, software de escritorio y software web en un mismo escenario de control.",
+        "authors": ["Director: Lic. Julio Javier Castillo", "Co-Director: Marina Elizabeth Cardenas"],
+        "links": []
+      },
+      {
+        "title": "Layer D.",
+        "abstract": "Framework de desarrollo de próxima generación basado en meta‑lenguajes de muy alto nivel, un lenguaje común (ZOE) orientado a objetos con meta-programación, reflexión y generación modular de código. Busca elevar el nivel de abstracción y soportar técnicas como meta‑programación, programas auto‑modificables y generación automatizada de código sobre múltiples plataformas.",
+        "authors": ["Director: Dr. Ricardo Medel", "Co-Director: Alexis Ferreyra"],
+        "links": []
+      },
+      {
+        "title": "Fresita.",
+        "abstract": "Herramienta distribuida para la creación, edición y administración colaborativa de ‘recetas’ (howtos), estandarizando estructura y léxico, permitiendo repositorios comunes con acceso off‑line y jerarquías entre recetas originales y derivadas.",
+        "authors": ["Director: Dr. Ricardo Medel", "Co-Director: Ing. César Martínez Spessot"],
+        "links": []
+      },
+      {
+        "title": "Murciélago.",
+        "abstract": "Proyecto de investigación para producir software móvil (J2ME) narrador de documentos de texto, incorporando APIs de Text‑To‑Speech y reconocimiento de voz, facilitando la creación de aplicaciones accesibles (por ejemplo lector de SMS) y una capa de abstracción para su uso en proyectos open source.",
+        "authors": ["Director: Ing. César Martínez Spessot", "Co-Director: Diego Sarmentero"],
+        "links": []
+      },
+      {
+        "title": "Syriox.",
+        "abstract": "Desarrollo de guantes con acelerómetros y microprocesadores para capturar gestos naturales de manos y dedos (lengua de señas), procesarlos mediante algoritmos y transmitirlos por Bluetooth a un dispositivo móvil que convierta los gestos en texto como entrada a un sistema Text‑To‑Speech, habilitando comunicación accesible para personas hipoacúsicas.",
+        "authors": ["Director: Ing. César Martínez Spessot", "Co-Director: Diego Sarmentero"],
+        "links": []
+      }
+    ]
+  },
+  "2009": {
+    "title": "Proyectos 2009",
+    "description": "Proyectos desarrollados durante el año 2009.",
+    "proyectos": [
+      {
+        "title": "TecnoDB.",
+        "abstract": "Motor de base de datos relacional experimental para estudiar la ejecución de consultas y gestionar metadatos; en evolución hacia un módulo de log de operaciones para medir y comparar rendimiento con distintos índices.",
+        "authors": ["Director: Ing. César Martínez Spessot"],
+        "publications": [
+          "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, JIDIS 2007, Junio 2007.",
+            "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, WICC 2007, Mayo 2007."
+        ],
+        "links": []
+      },
+      {
+        "title": "Sistema distribuido en tiempo real semi-soft utilizando RUP.",
+        "abstract": "Aplicación de RUP para un sistema distribuido de control de horno eléctrico (semi‑soft real time) integrando microcontroladores, cliente Visual C# .NET 2005 y componentes ASP .NET 2005, demostrando interacción entre software embebido, de escritorio y web.",
+        "authors": ["Director: Ing. Julio Castillo", "Co-Director: Marina Elizabeth Cardenas"],
+        "publications": [
+          "Sistema Distribuido en Tiempo Real, Julio Castillo, Marina Cardenas, WICC 2008, Mayo 2008.",
+          "PcController - Desarrollo de un sistema remoto de control, en tiempo real semisoft y su modelado con la metodología RUP, Julio Castillo, JIDIS 2008, Mayo 2008.",
+          "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, CNEISI 2007, Junio 2007.",
+          "Sistema Distribuido en tiempo real Semi-soft usando RUP, Julio Castillo, Marina Cardenas, WICC 2007, Mayo 2007.",
+          "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, JIDIS 2007, Junio 2007."
+        ],
+        "links": []
+      },
+      {
+        "title": "Layer D.",
+        "abstract": "Framework de meta‑programación y lenguajes de alto nivel (ZOE) con generación modular de código para elevar el nivel de abstracción y soportar paradigmas emergentes.",
+        "authors": ["Director: Ricardo Medel", "Co-Director: Alexis Ferreyra"],
+        "publications": [
+          "LayerD, Un Framework de Desarrollo. Grupo LayerD. II Jornadas de I+D en Ingeniería de Software Córdoba 2007. JIDIS 2007.",
+          "LayerD, Un Framework de Desarrollo. Grupo LayerD. Congreso Nacional de Estudiantes en Ingeniería en Sistemas de Información Córdoba 2007. CNEISI 2007."
+        ],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Software de simulación aplicado a entornos de e-learning (Grupo SIMUL).",
+        "abstract": "Desarrollo de software educativo de simulación para cátedras de Modelos y Simulación que permita a estudiantes experimentar, reforzar conocimientos y tomar decisiones en un entorno e‑learning con soporte teórico‑práctico.",
+        "authors": ["Director: Marina Elizabeth Cardenas", "Co-Director: Ing. Julio Castillo"],
+        "publications": [],
+        "links": ["Archivos/SIMUL.pdf"]
+      },
+      {
+        "title": "S.O.A.C. Fase II (Simulación Orientada al Aprendizaje de Computadoras).",
+        "abstract": "Extensión que busca modelar procesos de aprendizaje humano para construir un ente capaz de tomar decisiones autónomas combinando capacidades cognitivas humanas y recursos computacionales; explora potencial para superar un Test de Turing básico tras adquisición incremental de conocimiento.",
+        "authors": ["Director: Marina Elizabeth Cardenas", "Co-Director: Ing. Julio Castillo"],
+        "publications": [],
+        "links": ["Archivos/PROYECTO-SOAC2009.pdf"]
+      },
+      {
+        "title": "LEGO Control.",
+        "abstract": "Grupos de trabajo para desarrollar aplicaciones con LEGO Mindstorms NXT (reconocimiento de imágenes, voz y otras áreas de robótica) generando aportes académicos y experiencias prácticas de los alumnos.",
+        "authors": ["Director: Marina Elizabeth Cardenas", "Co-Director: Ing. Julio Castillo"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Fresita.",
+        "abstract": "Herramienta distribuida para creación colaborativa de recetas con estructura estandarizada, repositorios comunes y jerarquías entre originales y derivadas.",
+        "authors": ["Director: Dr. Ricardo Medel", "Co-Director: Ing. César Martínez Spessot"],
+        "publications": ["Fresita: una herramienta distribuída para la creación comunitaria de recetas. Santa Fe 2008. CLEI 2008."],
+        "links": []
+      },
+      {
+        "title": "Murciélago.",
+        "abstract": "Software móvil (J2ME) narrador de documentos que integra APIs de TTS y reconocimiento de voz para aplicaciones accesibles (lector de SMS y otros casos).",
+        "authors": ["Director: Ing. César Martínez Spessot", "Co-Director: Diego Sarmentero"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Syriox.",
+        "abstract": "Guantes con acelerómetros y microprocesadores para capturar gestos de lengua de señas, procesarlos y convertirlos en texto para un sistema TTS, facilitando comunicación accesible para personas hipoacúsicas.",
+        "authors": ["Miembros: Ing. César Martínez Spessot", "Diego Sarmentero", "Ignacio Giagante", "Adrian Remonda"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "CryptoByn.",
+        "abstract": "Algoritmo criptográfico basado en filtros de naturaleza aleatoria aplicados secuencialmente para eliminar patrones lingüísticos y aumentar la aleatoriedad mediante combinatoria y permutaciones en cada etapa de transformación del mensaje.",
+        "authors": ["Miembros: Diego Sarmentero"],
+        "publications": [],
+        "links": ["http://groups.google.com.ar/group/cryptobyn"]
+      }
+    ]
+  },
+  "2010": {
+    "title": "Proyectos 2010",
+    "description": "Proyectos desarrollados durante el año 2010.",
+    "proyectos": [
+      {
+        "title": "TecnoDB.",
+        "abstract": "Motor de base de datos relacional experimental que continúa evolución en administración de metadatos y módulo de log para tiempos de operaciones con y sin índices, habilitando comparaciones de algoritmos de indexación.",
+        "authors": ["Director: Ing. César Martínez Spessot"],
+        "publications": [
+          "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, JIDIS 2007, Junio 2007.",
+          "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, WICC 2007, Mayo 2007."
+        ],
+        "links": []
+      },
+      {
+        "title": "Sistema distribuido en tiempo real semi-soft utilizando RUP.",
+        "abstract": "Aplicación de RUP para control distribuido de horno eléctrico (semi‑soft real time) integrando microcontroladores, cliente Visual C# .NET 2005 y componentes ASP .NET 2005, mostrando integración embebido‑escritorio‑web.",
+        "authors": ["Director: Ing. Julio Castillo", "Co-Director: Marina Elizabeth Cardenas"],
+        "publications": [
+          "Sistema Distribuido en Tiempo Real, Julio Castillo, Marina Cardenas, WICC 2008, Mayo 2008.",
+          "PcController - Desarrollo de un sistema remoto de control, en tiempo real semisoft y su modelado con la metodología RUP, Julio Castillo, JIDIS 2008, Mayo 2008.",
+          "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, CNEISI 2007, Junio 2007.",
+          "Sistema Distribuido en tiempo real Semi-soft usando RUP, Julio Castillo, Marina Cardenas, WICC 2007, Mayo 2007.",
+          "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, JIDIS 2007, Junio 2007."
+        ],
+        "links": []
+      },
+      {
+        "title": "Layer D.",
+        "abstract": "Framework de meta‑programación y lenguajes de alto nivel (ZOE) con generación modular, elevando el nivel de abstracción y permitiendo paradigmas emergentes e intencionales.",
+        "authors": ["Director: Dr. Ricardo Medel", "Co-Director: Alexis Ferreyra"],
+        "publications": [
+          "LayerD, Un Framework de Desarrollo. Grupo LayerD. II Jornadas de I+D en Ingeniería de Software Córdoba 2007. JIDIS 2007.",
+          "LayerD, Un Framework de Desarrollo. Grupo LayerD. Congreso Nacional de Estudiantes en Ingeniería en Sistemas de Información Córdoba 2007. CNEISI 2007."
+        ],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "LEGO UTN FRC Control.",
+        "abstract": "Grupos de trabajo con LEGO Mindstorms NXT abordando reconocimiento de imágenes, voz y otras áreas de robótica para generar aportes académicos y experiencia práctica estudiantil.",
+        "authors": ["Director: Ing. Marina Elizabeth Cardenas", "Co-Director: Ing. Julio Castillo"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Programación paralela y administración de clusters HPC en Linux.",
+        "abstract": "Estudio de computación de alto rendimiento mediante clusters Linux: instalación, administración de entornos y desarrollo de habilidades de programación paralela en diversos modelos.",
+        "authors": ["Director: Dr. Ricardo Medel"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC.",
+        "abstract": "Proyecto orientado a fomentar el estudio de algoritmos, estructuras de datos y resolución eficiente de problemas mediante organización y soporte de competencia anual interna de programación.",
+        "authors": ["Director: Ing. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar a los alumnos acerca de la importancia de los problemas algoritmos y su resolución en forma eficaz y eficiente.",
+          "Promover el estudio de la programación, estructuras de datos y algoritmos entre los estudiantes de la UTN-FRC.",
+          "Fomentar la inclusión de profesores y alumnos en la competencia de programación."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Cada equipo dispone de una PC y acceso a bibliografía impresa.",
+          "Duración de 4 a 6 horas resolviendo un conjunto de 4 a 8 problemas.",
+          "Problemas en inglés con especificación de entrada, salida y límites de tiempo/memoria.",
+          "Envío de soluciones para compilación y veredicto automático por el jurado."
+        ],
+        "links": []
+      },
+      {
+        "title": "Software de simulación aplicado a entornos de e-learning (Grupo SIMUL).",
+        "abstract": "Software para construir modelos de sistemas complejos orientado a cátedras de Modelos y Simulación; posibilita experimentación estudiantil y decisión sobre bases teórico‑prácticas en un entorno de e‑learning.",
+        "authors": ["Director: Marina Elizabeth Cardenas", "Co-Director: Ing. Julio Castillo"],
+        "publications": [],
+        "links": ["Archivos/SIMUL.pdf"]
+      }
+    ]
+  },
+  "2011": {
+    "title": "Proyectos 2011",
+    "description": "Proyectos desarrollados durante el año 2011.",
+    "proyectos": [
+      {
+        "title": "Modelado para la predicción de incendios forestales en la provincia de Córdoba.",
+        "abstract": "Modelo matemático/computacional para pronosticar incendios forestales en sierras y parque chaqueño cordobés integrando patrones humanos y variables climáticas (humedad, presión, temperatura, lluvia) mediante técnicas de aprendizaje automático (redes neuronales, SVM) y referencias al índice FWI canadiense.",
+        "authors": ["Director: Lic. Julio Castillo"],
+        "links": []
+      },
+      {
+        "title": "Caracterización del sistema Mal de Río Cuarto del maíz mediante minería de datos y análisis de redes.",
+        "abstract": "Estudio de variabilidad genética del Mal de Río Cuarto Virus usando minería de datos y redes: construcción de base con muestras (geolocalización, año, hospedante, ELISA, electroforesis), generación de redes de haplotipos según distancias genéticas y análisis con técnicas de Data Mining (árboles, redes neuronales, clustering, reglas de asociación) para mejorar modelos predictivos de la enfermedad.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "links": []
+      },
+      {
+        "title": "Plataforma de desarrollo de software LayerD.",
+        "abstract": "Framework y técnicas de programación avanzadas para producir software \"abstracto\" desacoplado de runtimes y APIs específicas, buscando ventajas comparativas frente a lenguajes tradicionales mediante meta‑programación y modularidad extensible.",
+        "authors": ["Autor: Ing. Alexis Ferreyra"],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Web Testing.",
+        "abstract": "Proyecto orientado a testear aplicaciones web identificando variables críticas de evaluación para reducir defectos y fallas, definiendo una estrategia sistemática de testing basada en herramientas y métodos comunes.",
+        "authors": ["Autora: Ing. M. Alejandra Di Gionantonio"],
+        "links": []
+      },
+      {
+        "title": "Análisis y procesamiento de imágenes.",
+        "abstract": "Grupo orientado a aprender fundamentos de análisis y procesamiento de imágenes y aplicar algoritmos a problemas concretos.",
+        "authors": ["Contacto: investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "Programación de juegos.",
+        "abstract": "Grupo de estudio sobre fundamentos de programación de videojuegos: arquitecturas, eficiencia, librerías; desarrollo incremental de juegos simples incorporando nuevas características.",
+        "authors": ["Contacto: investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "Clusters sobre Windows HPC y programación de algoritmos en paralelo en .NET.",
+        "abstract": "Estudio, resolución e implementación de algoritmos y estructuras de datos en programación paralela, concurrente y distribuida usando computación de alto desempeño (HPC) sobre entorno Windows y tecnología .NET.",
+        "authors": ["Contacto: Diego Serrano"],
+        "links": []
+      },
+      {
+        "title": "LEGO UTN FRC Control.",
+        "abstract": "Proyecto para generar grupos que trabajen con LEGO Mindstorms NXT en áreas de robótica (reconocimiento de imágenes, voz, etc.) y produzcan aportes académicos y experiencias prácticas estudiantiles.",
+        "authors": ["Contacto: investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC.",
+        "abstract": "Proyecto para fomentar estudio de algoritmos y estructuras de datos mediante competencia anual; incluye organización, objetivos formativos y reglas operativas.",
+        "authors": ["Director: Lic. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar la resolución eficaz y eficiente de problemas algorítmicos.",
+          "Promover estudio de programación, estructuras de datos y algoritmos.",
+          "Incluir profesores y alumnos en la competencia."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Acceso a bibliografía impresa.",
+          "Duración 4–6 horas para resolver 4–8 problemas.",
+          "Problemas en inglés con especificaciones completas y límites de tiempo/memoria.",
+          "Envío de soluciones para compilación y evaluación automática."
+        ],
+        "links": []
+      }
+    ]
+  },
+  "2012": {
+    "title": "Proyectos 2012",
+    "description": "Proyectos desarrollados durante el año 2012.",
+    "proyectos": [
+      {
+        "title": "Modelado para la predicción de incendios forestales en la provincia de Córdoba.",
+        "abstract": "Modelo matemático/computacional para pronosticar incendios forestales en sierras y parque chaqueño cordobés, integrando variables climáticas (humedad, presión, temperatura, lluvia) y patrones humanos mediante técnicas de aprendizaje automático (redes neuronales, SVM) con referencia al índice FWI canadiense.",
+        "authors": ["Director: Lic. Julio Castillo"],
+        "links": []
+      },
+      {
+        "title": "Caracterización del sistema Mal de Río Cuarto del maíz mediante minería de datos y análisis de redes.",
+        "abstract": "Análisis de variabilidad genética del MRCV: creación de base de muestras (geolocalización, año, hospedante, ELISA, electroforesis), generación de redes de haplotipos según distancias genéticas y aplicación de técnicas de Data Mining (árboles, redes neuronales, clustering, reglas) para mejorar modelos predictivos de la enfermedad.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "links": []
+      },
+      {
+        "title": "Plataforma de desarrollo de software LayerD.",
+        "abstract": "Framework y herramientas avanzadas para implementar software abstracto desacoplado de entornos de ejecución y APIs, fundamentado en meta‑programación y modularidad extensible para ventajas comparativas frente a lenguajes tradicionales.",
+        "authors": ["Contacto: Ing. Alexis Ferreyra (alexis.ferreyra@gmail.com)"] ,
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Web Testing.",
+        "abstract": "Definición de estrategia de testing para aplicaciones web identificando variables críticas de evaluación y uso de herramientas/metodologías para reducir defectos y optimizar calidad.",
+        "authors": ["Contacto: Ing. M. Alejandra Di Gionantonio (malejandradg@yahoo.com.ar)"] ,
+        "links": []
+      },
+      {
+        "title": "Seguridad informática - Firmas digitales.",
+        "abstract": "Investigación y desarrollo sobre protocolos de red y seguridad, criptografía y firmas digitales combinando capacidades de cifrado y hardware seguro para incrementar confianza en transacciones y protección de la información.",
+        "authors": ["Contacto: Adrián Mondolo (amondolo@gmail.com)"] ,
+        "links": []
+      },
+      {
+        "title": "Desarrollo asistido y análisis de rendimiento de aplicaciones de procesamiento paralelo.",
+        "abstract": "Proyecto orientado a métodos y herramientas para soporte al desarrollo y medición de performance en aplicaciones de procesamiento paralelo (descripción en construcción).",
+        "authors": ["Contacto: Martin Gramatica"],
+        "links": []
+      },
+      {
+        "title": "Botnets y ataque de denegación de servicio.",
+        "abstract": "Estudio de botnets como redes de robots distribuidos controlados remotamente (IRC/web), vectores de obtención de datos y ejecución de ataques DDoS provocando pérdida de conectividad por consumo de ancho de banda.",
+        "authors": ["Contacto: Francisco Garcia Calzada (francisco111@hotmail.com)"] ,
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones en Android.",
+        "abstract": "Investigación de tecnologías móviles sobre Android para crear aplicaciones que faciliten la vida cotidiana (ej. notificaciones en tiempo real para la facultad).",
+        "authors": ["Contactos: Nicolas Andres Aguirre (elnico_92_07@hotmail.com)", "Franco Rapetti (frapeti@gmail.com)"] ,
+        "links": []
+      },
+      {
+        "title": "Aplicaciones para dispositivos móviles (celulares y tablets).",
+        "abstract": "Estudio de programación en dispositivos móviles empleando celulares y tablet PCs para desarrollar aplicaciones varias.",
+        "authors": ["Contacto: (no especificado)"] ,
+        "links": []
+      },
+      {
+        "title": "Marketing óptico digital empleando visión por computador.",
+        "abstract": "Desarrollo de software de captura y procesamiento de imágenes en tiempo real (ej. MS Kinect) para plataforma publicitaria y análisis de mercado que selecciona pauta según resultados de procesamiento visual.",
+        "authors": ["Contactos: Rodrigo Liberal", "Carlos Kapica", "Julián Peker", "David Eduardo Fernandez"],
+        "links": []
+      },
+      {
+        "title": "Análisis y procesamiento de imágenes.",
+        "abstract": "Grupo de estudio de fundamentos y algoritmos de análisis/procesamiento de imágenes aplicados a problemas concretos.",
+        "authors": ["Email: investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "LEGO UTN FRC Control.",
+        "abstract": "Grupos de trabajo con LEGO Mindstorms NXT para exploración de reconocimiento de imágenes, voz y otras áreas de robótica aportando resultados académicos.",
+        "authors": ["Contacto: investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC.",
+        "abstract": "Proyecto para fomentar el estudio de algoritmos y estructuras de datos mediante competencia anual interna con objetivos formativos y reglas operativas.",
+        "authors": ["Contacto: Ing. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar la resolución eficaz y eficiente de problemas algorítmicos.",
+          "Promover estudio de programación, estructuras de datos y algoritmos.",
+          "Incluir profesores y alumnos en la competencia."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Acceso a bibliografía impresa.",
+          "Duración 4–6 horas resolviendo 4–8 problemas.",
+          "Problemas en inglés con especificaciones y límites.",
+          "Evaluación automática de soluciones enviadas."
+        ],
+        "links": []
+      }
+    ]
+  },
+  "2013": {
+    "title": "Proyectos 2013",
+    "description": "Proyectos desarrollados durante el año 2013.",
+    "proyectos": [
+      {
+        "title": "Construcción de un modelo de pronósticos para predicción de incendios forestales en la Provincia de Córdoba.",
+        "abstract": "Desarrollo de un modelo matemático/computacional que capture patrones humanos y climáticos (humedad, presión, temperatura, lluvia) para predecir incendios forestales. Empleo de aprendizaje automático (redes neuronales, SVM) y consideración del índice FWI.",
+        "authors": ["Directora: Esp. Ing. Marina E. Cárdenas", "Co-Director: Lic. Julio Castillo"],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de Sistema de Análisis de Texto No Estructurado.",
+        "abstract": "Aplicación de técnicas de aprendizaje automático para analizar textos en español e inglés y detectar oraciones con significado equivalente; herramientas para carga y tabulación de textos.",
+        "authors": ["Director: Ing. Lic. Julio Castillo", "Co-Directora: Esp. Ing. Marina E. Cárdenas"],
+        "links": []
+      },
+      {
+        "title": "Caracterización del Sistema Mal de Río Cuarto del Maíz mediante Minería de Datos y Análisis de Redes.",
+        "abstract": "Estudio de la variabilidad genética del MRCV usando minería de datos y redes creadas a partir de perfiles electroforéticos para mejorar modelos predictivos.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "links": []
+      },
+      {
+        "title": "Plataforma de Desarrollo de Software LayerD.",
+        "abstract": "Diseño y desarrollo de un framework para implementar software 'abstracto' no acoplado a entornos de ejecución ni APIs específicas.",
+        "authors": ["Contacto: Ing. Alexis Ferreyra"],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Web Testing.",
+        "abstract": "Definición de una estrategia de testing para aplicaciones web para identificar variables críticas y reducir errores mediante herramientas y métodos adecuados.",
+        "authors": ["Contacto: Ing. M. Alejandra Di Gionantonio"],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones en Android.",
+        "abstract": "Investigación de tecnologías para desarrollo móvil en Android y creación de aplicaciones útiles (por ejemplo, sistema de alertas para docentes).",
+        "authors": ["Nicolas Andres Aguirre", "Franco Rapetti"],
+        "links": []
+      },
+      {
+        "title": "Aplicaciones para dispositivos móviles (celulares y tablets).",
+        "abstract": "Estudio de programación en dispositivos móviles utilizando celulares y tablet PCs.",
+        "authors": ["(no especificado)"],
+        "links": []
+      },
+      {
+        "title": "Marketing Óptico Digital Empleando Visión por Computador.",
+        "abstract": "Desarrollo de captura y procesamiento de imágenes en tiempo real para implementar pautas publicitarias basadas en el análisis visual (ej. con MS Kinect).",
+        "authors": ["Rodrigo Liberal", "Carlos Kapica", "Julián Peker", "David Eduardo Fernandez"],
+        "links": []
+      },
+      {
+        "title": "Análisis y Procesamiento de Imágenes.",
+        "abstract": "Grupo de estudio sobre fundamentos y algoritmos de análisis y procesamiento de imágenes aplicados a la resolución de problemas concretos.",
+        "authors": ["investigacionsoftware@gmail.com"],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC.",
+        "abstract": "Competencia anual orientada a fomentar habilidades en algoritmos y estructuras de datos entre estudiantes de la UTN-FRC.",
+        "authors": ["Contacto: Ing. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar a los alumnos acerca de la importancia de los problemas algorítmicos y su resolución en forma eficaz y eficiente.",
+          "Promover el estudio de la programación, estructuras de datos y algoritmos entre los estudiantes de la UTN-FRC.",
+          "Fomentar la inclusión de profesores y alumnos en la competencia de programación."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Cada equipo dispone de una PC y acceso a bibliografía impresa.",
+          "Duración de la competencia: 4–6 horas, resolviendo entre 4 y 8 problemas.",
+          "Problemas en inglés con especificaciones y límites de tiempo/memoria.",
+          "Evaluación automática vía compilación y pruebas por parte del jurado."
+        ],
+        "links": []
+      }
+    ]
+  },
+  "2014": {
+    "title": "Proyectos 2014",
+    "description": "Proyectos desarrollados durante el año 2014.",
+    "proyectos": [
+      {
+        "title": "Construcción de un modelo de pronósticos para predicción de incendios forestales en la Provincia de Córdoba.",
+        "abstract": "Desarrollo de un modelo matemático/computacional que capture patrones humanos y climáticos (humedad, presión, temperatura, lluvia) para predecir incendios forestales. Se emplean técnicas de aprendizaje automático (redes neuronales, máquinas de vectores soporte) y se considera el uso de índices como el FWI.",
+        "authors": ["Directora: Esp. Ing. Marina E. Cárdenas", "Co-Director: Lic. Julio Castillo"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de Sistema de Análisis de Texto No Estructurado.",
+        "abstract": "Proyecto para aplicar técnicas de aprendizaje automático al análisis de textos en español e inglés, identificando oraciones con significado equivalente y desarrollando herramientas para la carga, procesamiento y tabulación de datos textuales.",
+        "authors": ["Director: Ing. Lic. Julio Castillo", "Co-Directora: Esp. Ing. Marina E. Cárdenas"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Caracterización del Sistema Mal de Río Cuarto del Maíz mediante Minería de Datos y Análisis de Redes.",
+        "abstract": "Estudio de la variabilidad genética del virus MRCV mediante minería de datos y análisis de redes, conformando bases de datos con muestras y análisis electroforéticos para construir haplotipos y redes que permitan mejorar modelos predictivos de la enfermedad.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Plataforma de Desarrollo de Software LayerD.",
+        "abstract": "Framework y conjunto de herramientas para implementar software 'abstracto' desacoplado de entornos de ejecución concretos, orientado a la portabilidad y extensibilidad del software.",
+        "authors": ["Contacto: Ing. Alexis Ferreyra"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Web Testing.",
+        "abstract": "Estrategia y herramientas para testear aplicaciones web, identificar las variables críticas y reducir errores mediante metodologías de testing específicas para entornos web.",
+        "authors": ["Contacto: Ing. M. Alejandra Di Gionantonio"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones en Android.",
+        "abstract": "Investigación sobre tecnologías de desarrollo móvil en Android con ejemplos prácticos (por ejemplo, sistema de alertas y notificaciones en tiempo real para la facultad).",
+        "authors": ["Contacto: Nicolas Andres Aguirre", "Franco Rapetti"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Aplicaciones para dispositivos móviles (celulares y tablets).",
+        "abstract": "Estudio y desarrollo de aplicaciones móviles para celulares y tablets, explorando toolkits y frameworks adecuados para dispositivos móviles.",
+        "authors": ["(no especificado)"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Marketing Óptico Digital Empleando Visión por Computador.",
+        "abstract": "Desarrollo de software de captura y procesamiento de imágenes en tiempo real (por ejemplo con MS Kinect) para selección y emisión de pautas publicitarias basadas en análisis visual.",
+        "authors": ["Rodrigo Liberal", "Carlos Kapica", "Julián Peker", "David Eduardo Fernandez"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Análisis y Procesamiento de Imágenes.",
+        "abstract": "Grupo de estudio sobre fundamentos y algoritmos de análisis y procesamiento de imágenes para su aplicación en problemas concretos.",
+        "authors": ["investigacionsoftware@gmail.com"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC.",
+        "abstract": "Competencia anual orientada a fomentar habilidades en algoritmos y estructuras de datos entre estudiantes de la UTN-FRC.",
+        "authors": ["Contacto: Ing. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar a los alumnos acerca de la importancia de los problemas algorítmicos y su resolución en forma eficaz y eficiente.",
+          "Promover el estudio de la programación, estructuras de datos y algoritmos entre los estudiantes de la UTN-FRC.",
+          "Fomentar la inclusión de profesores y alumnos en la competencia de programación."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Cada equipo dispone de una PC y acceso a bibliografía impresa.",
+          "Duración de la competencia: 4–6 horas, resolviendo entre 4 y 8 problemas.",
+          "Problemas en inglés con especificaciones y límites de tiempo/memoria.",
+          "Evaluación automática vía compilación y pruebas por parte del jurado."
+        ],
+        "publications": [],
+        "links": []
+      }
+    ]
+  },
+  "2015": {
+    "title": "Proyectos 2015",
+    "description": "Proyectos desarrollados durante el año 2015.",
+    "proyectos": [
+      {
+        "title": "Construcción de un modelo de pronósticos para Predicción de Incendios Forestales en la Provincia de Córdoba",
+        "abstract": "Este proyecto tiene como objetivo proveer un modelo de pronóstico para detectar incendios forestales en la Provincia de Córdoba (sierras y región del parque Chaqueño). Se construirá un modelo matemático/computacional que capture patrones humanos y climáticos (humedad, presión, temperatura, lluvia). Se considerará el uso de índices como el Canadian Forest Fire Weather Index (FWI) y se aplicarán técnicas de aprendizaje automático (redes neuronales, máquinas de vectores de soporte). El modelo inicial será probado y refinado con datos reales.",
+        "authors": ["Directora: Esp. Ing. Marina E. Cardenas", "Co-Director: Dr. Julio Castillo"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de Sistema de Análisis de Texto No Estructurado",
+        "abstract": "Aplicación de técnicas de aprendizaje automático para analizar textos en Español e Inglés, detectar oraciones de significado equivalente y desarrollar herramientas para la carga, procesamiento y tabulación de información textual.",
+        "authors": ["Director: Dr. Julio Castillo", "Co-Directora: Esp. Ing. Marina E. Cardenas"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de infraestructura de meta-nivel sobre JavaScript para el desarrollo de software multi-plataforma",
+        "abstract": "Proyecto para crear una capa de meta-nivel (MetaScript) que permita escribir un único programa HTML+JavaScript ejecutable eficientemente en múltiples web-runtimes mediante técnicas de meta-programación y generación de código específico para cada runtime.",
+        "authors": ["Director: Dr. Ricardo Medel"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Análisis de datos de enfermedades infecciosas transmitidas por Hemiptera Auchenorrhyncha",
+        "abstract": "Análisis de datos epidemiológicos y genéticos de enfermedades transmitidas por Hemiptera Auchenorrhyncha (ej. Corn stunt y Mal de Río Cuarto). Construcción de bases de datos con variables geográficas, temporales y resultados de pruebas (ELISA, electroforesis), aplicación de KDD y análisis de redes para generación de hipótesis y conclusiones.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Plataforma de Desarrollo de Software LayerD",
+        "abstract": "Desarrollo de un framework y conjunto de herramientas para implementar software 'abstracto' desacoplado de entornos de ejecución y APIs específicas, promoviendo portabilidad y extensibilidad.",
+        "authors": ["Contacto: Ing. Alexis Ferreyra"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Desarrollos con plataforma Arduino",
+        "abstract": "Proyectos de prototipado con Arduino (hardware y software) para crear entornos y objetos interactivos, control de sensores y actuadores, y desarrollo de aplicaciones embebidas independientes o comunicadas con software externo.",
+        "authors": ["(no especificado)"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Web Testing",
+        "abstract": "Estrategias y herramientas para probar aplicaciones web, identificar variables críticas y reducir errores mediante una estrategia sistemática de testing que optimice calidad en entornos web.",
+        "authors": ["Contacto: Ing. Alejandra Di Gionantonio"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones para dispositivos móviles en Android",
+        "abstract": "Investigación de tecnologías y prácticas para desarrollar aplicaciones móviles en Android que faciliten actividades cotidianas (ej. sistema de alertas y notificaciones en tiempo real para la facultad).",
+        "authors": ["(no especificado)"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones utilizando MS Kinect",
+        "abstract": "Investigación y desarrollo de soluciones usando MS Kinect para identificación y seguimiento de personas, navegación reactiva de robots, detección de objetos por color/profundidad y otras aplicaciones en robótica y salud.",
+        "authors": ["(no especificado)"],
+        "publications": [],
+        "objectives": [],
+        "caracteristicas": [],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC",
+        "abstract": "Competencia anual orientada a fomentar habilidades en algoritmos y estructuras de datos entre estudiantes de la UTN-FRC.",
+        "authors": ["Contacto: Dr. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar a los alumnos acerca de la importancia de los problemas algoritmos y su resolución en forma eficaz y eficiente.",
+          "Promover el estudio de la programación, estructuras de datos y algoritmos entre los estudiantes de la UTN-FRC.",
+          "Fomentar la inclusión de profesores y alumnos en la competencia de programación."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Cada equipo dispone de una PC y acceso a toda la bibliografía impresa que desee.",
+          "La competencia tiene una duración de entre 4 y 6 horas, tiempo en el que cada equipo deberá resolver la mayor cantidad de problemas de un conjunto (de entre 4 y 8 problemas).",
+          "Cada problema está enunciado en idioma inglés con descripción del formato de entrada/salida y límites de tiempo/memoria.",
+          "Evaluación automática: el jurado compila y ejecuta las soluciones con conjuntos de pruebas y comunica el resultado."
+        ],
+        "publications": [],
+        "links": []
+      }
+    ]
+  },
+  "2016": {
+    "title": "Proyectos 2016",
+    "description": "Proyectos desarrollados durante el año 2016.",
+    "proyectos": [
+      {
+        "title": "Construcción de un modelo de pronósticos para predicción de incendios forestales en la Provincia de Córdoba",
+        "abstract": "Desarrollo de un modelo matemático/computacional para pronosticar incendios forestales en sierras y llanuras de la Provincia de Córdoba, integrando variables climáticas (humedad, presión, temperatura, lluvia) y patrones humanos. Se aplicarán técnicas de aprendizaje automático (redes neuronales, SVM) y se evaluará el uso de índices como el Canadian Forest Fire Weather Index (FWI).",
+        "authors": ["Directora: Esp. Ing. Marina E. Cárdenas", "Co-Director: Lic. Julio Castillo"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de Sistema de Análisis de Texto No Estructurado",
+        "abstract": "Proyecto para aplicar técnicas de aprendizaje automático al análisis de textos en Español e Inglés, identificando oraciones con significado equivalente y desarrollando herramientas para carga, procesamiento y tabulación de datos textuales.",
+        "authors": ["Director: Lic. Julio Castillo", "Co-Directora: Esp. Ing. Marina E. Cárdenas"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Caracterización del Sistema Mal de Río Cuarto del Maíz mediante Minería de Datos y Análisis de Redes",
+        "abstract": "Análisis de la variabilidad genética del MRCV mediante la construcción de bases de datos con muestras (geolocalización, año, hospedante, ELISA, electroforesis), generación de redes de haplotipos y aplicación de técnicas de data mining para mejorar modelos predictivos.",
+        "authors": ["Director: Ing. Mario Alejandro Garcia"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Plataforma de Desarrollo de Software LayerD",
+        "abstract": "Framework y conjunto de herramientas para implementar software 'abstracto' desacoplado de entornos de ejecución y APIs específicas, basado en técnicas de meta-programación y generación modular de código.",
+        "authors": ["Contacto: Ing. Alexis Ferreyra"],
+        "publications": [],
+        "links": ["http://layerd.net/"]
+      },
+      {
+        "title": "Web Testing",
+        "abstract": "Estrategias y herramientas para testear aplicaciones web identificando variables críticas y reduciendo defectos mediante metodologías y herramientas específicas.",
+        "authors": ["Contacto: Ing. M. Alejandra Di Gionantonio"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Desarrollo de aplicaciones en Android",
+        "abstract": "Investigación y desarrollo de aplicaciones móviles en Android con enfoque en soluciones prácticas (por ejemplo notificaciones y sistemas de apoyo a la comunidad académica).",
+        "authors": ["Nicolás Andrés Aguirre", "Franco Rapetti"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Aplicaciones para dispositivos móviles (celulares y tablets)",
+        "abstract": "Estudio y desarrollo de aplicaciones para celulares y tablets, explorando frameworks, toolkits y patrones de diseño para móviles.",
+        "authors": ["(no especificado)"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Marketing Óptico Digital empleando Visión por Computador",
+        "abstract": "Desarrollo de software de captura y procesamiento de imágenes en tiempo real (ej. MS Kinect) aplicable a plataformas publicitarias que seleccionan pauta según análisis visual.",
+        "authors": ["Rodrigo Liberal", "Carlos Kapica", "Julián Peker", "David Eduardo Fernandez"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Análisis y Procesamiento de Imágenes",
+        "abstract": "Grupo de estudio sobre fundamentos y algoritmos de análisis y procesamiento de imágenes aplicados a problemas concretos (visión por computador, segmentación, detección).",
+        "authors": ["investigacionsoftware@gmail.com"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "LEGO UTN FRC Control",
+        "abstract": "Grupos de trabajo con LEGO Mindstorms NXT orientados a proyectos de robótica (reconocimiento de imágenes, voz, control autónomo) con enfoque educativo y extensión académica.",
+        "authors": ["Contacto: investigacionsoftware@gmail.com"],
+        "publications": [],
+        "links": []
+      },
+      {
+        "title": "Competencia de Programación UTN-FRC",
+        "abstract": "Competencia anual orientada a fomentar habilidades en algoritmos, estructuras de datos y resolución eficiente de problemas entre estudiantes de la UTN-FRC.",
+        "authors": ["Director: Lic. Julio Castillo"],
+        "objectives": [
+          "Fomentar y concientizar a los alumnos acerca de la importancia de los problemas algorítmicos y su resolución en forma eficaz y eficiente.",
+          "Promover el estudio de la programación, estructuras de datos y algoritmos entre los estudiantes de la UTN-FRC.",
+          "Fomentar la inclusión de profesores y alumnos en la competencia de programación."
+        ],
+        "caracteristicas": [
+          "Equipos de tres personas.",
+          "Cada equipo dispone de una PC y acceso a bibliografía impresa.",
+          "Duración de la competencia: entre 4 y 6 horas, resolviendo entre 4 y 8 problemas.",
+          "Problemas en inglés con especificación de entrada/salida y límites de tiempo/memoria.",
+          "Evaluación automática por compilación y pruebas realizada por el jurado."
+        ],
+        "publications": [],
+        "links": []
+      }
+    ]
+  }
+}

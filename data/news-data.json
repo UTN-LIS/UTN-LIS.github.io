@@ -1,0 +1,127 @@
+{
+    "featuredId": "2007-cneisi",
+    "news": [
+        {
+            "id": "2007-cneisi",
+            "title": "CNEISI-Congreso Nacional de Estudiantes de Ingeniería en Sistemas de Información",
+            "date": "2007-03-16",
+            "category": "events",
+            "image": "./img/news/utn.gif",
+            "excerpt": "Este primer Congreso de Estudiantes se realizará, en nuestra Facultad Regional Córdoba, los días 22, 23 y 24 de mayo del 2007, con el objetivo de propiciar, estimular y difundir los avances de la investigación científica y tecnológica en la Ingeniería en Sistemas, reforzando la integración académica y cultural en su comunidad Universitaria.",
+            "content": [
+                "La Universidad Tecnológica Nacional, Facultad Regional Córdoba, y su Departamento de Ingeniería en Sistemas de Información, han programado la realización de este congreso, a fin de promover la difusión de las actividades de investigación, desarrollo e innovación que se realizan en su ámbito en general, y especialmente en relación a la Ingeniería del Software y en Sistemas.",
+                "Sitio Web: http://www.cneisi.frc.utn.edu.ar",
+                "<< Mas Información en .pdf >>"
+            ],
+            "links": [
+                {
+                    "label": "Sitio Web oficial",
+                    "url": "http://www.cneisi.frc.utn.edu.ar"
+                },
+                {
+                    "label": "Más información (PDF)",
+                    "url": "http://www.institucional.frc.utn.edu.ar/sistemas/noticias/cneisi.pdf"
+                }
+            ]
+        },
+        {
+            "id": "2006-premio-eset-utn",
+            "title": "Alumno UTN - FRC premiado con el ESET-UTN y mención especial",
+            "date": "2006-11-17",
+            "category": "awards",
+            "image": "./img/news/eset-premio.jpg",
+            "excerpt": "Con mucho agrado queremos compartir la noticia que el Premio ESET-UTN fue otorgado al alumno de Ing. en Sistemas de Información Julio Javier Castillo, de nuestra Regional, y que participa hace varios años en proyectos de investigación de nuestro laboratorio. Dicho premio se otorga a un solo alumno, con participación de todas las regionales de la UTN a nivel nacional. De la Regional Córdoba se enviaron los CVitae de 4 (cuatro) alumnos postulantes y de ellos fueron preseleccionados tres. Luego les solicitaron un trabajo monográfico que debieron enviar, siendo seleccionado el alumno Castillo y con Mención Especial Maximiliano Visentini, alumno también de la Regional Córdoba.",
+            "content": [
+                "Artículos relacionados:",
+                "Eset y UTN se unen para premiar a un alumno de la universidad (Fecha de Publicación 28/07/2006). La empresa de seguridad informática y la institución educacional llevarán al alumno ganador de la beca a la próxima AVAR (Asociación de Investigadores de Antivirus de Asia) a realizarse en Nueva Zelanda durante los primeros días de diciembre. Buenos Aires, Julio del 2006 - Eset y la Universidad Tecnológica Nacional Argentina se unen para otorgar una beca para la próxima AVAR a realizarse en Auckland, Nueva Zelanda, durante el 4 y 5 de diciembre de este año. La AVAR es un evento anual donde participan todas las marcas antivirus y muchos especialistas reconocidos en el tema.",
+                "Cada una de las 12 facultades regionales, que tiene carrera de sistemas dentro de sus planes educativos, presentó una lista de posibles candidatos a ganar la beca. Un equipo conformado por profesionales de Eset y catedráticos de UTN preseleccionarán los alumnos según su curriculum en la facultad y experiencia en el área para que puedan participar en el proyecto.",
+                "Los alumnos elegidos deberán realizar un trabajo de investigación sobre seguridad antivirus, el cual será evaluado por Eset y se lo calificará por su contenido, análisis del tema y originalidad del mismo. La selección de los alumnos comenzó a principios de julio y se confirmará a los seleccionados a mediados de agosto. De allí en adelante, cada participante tendrá aproximadamente un mes y medio para realizar el trabajo y presentarlo.",
+                "Además del alumno ganador, a la AVAR viajarán también un integrante del equipo de Eset Latinoamérica y un profesor de la UTN, el cual será seleccionado por Eset según su curriculum y experiencia en el área. A fines de agosto se informará quién es el profesor elegido y a principios de octubre se anunciará el trabajo y el alumno ganador. El viaje será de cinco días aproximadamente, y los becados tendrán la posibilidad de no sólo presenciar el evento completo, sino que también conocer y interactuar con los máximos especialistas de Eset.",
+                "\"Consideramos muy importante esta iniciativa que estamos llevando a cabo con esta casa de altos estudios, ya que es una manera de acercar a futuros profesionales al tema de seguridad informática y a la seguridad antivirus\", dijo el Lic. Cristian Borghello, Educational & Technical Manager de Eset Latinoamérica.",
+                "Eset y UTN se unen para premiar a un alumno de la universidad (Fecha de Publicación 09/08/2006). Eset y la Universidad Tecnológica Nacional Argentina se unen para otorgar una beca para la próxima AVAR (Asociación de Investigadores de Antivirus de Asia) a realizarse en Auckland, Nueva Zelanda, durante el 4 y 5 de diciembre de este año.",
+                "La AVAR es un evento anual donde participan todas las marcas antivirus y muchos especialistas reconocidos en el tema.",
+                "Cada una de las 12 facultades regionales, que tiene carrera de sistemas dentro de sus planes educativos, presentó una lista de posibles candidatos a ganar la beca. Un equipo conformado por profesionales de Eset y catedráticos de UTN preseleccionarán los alumnos según su curriculum en la facultad y experiencia en el área para que puedan participar en el proyecto.",
+                "Los alumnos elegidos deberán realizar un trabajo de investigación sobre seguridad antivirus, el cual será evaluado por Eset y se lo calificará por su contenido, análisis del tema y originalidad del mismo. La selección de los alumnos comenzó a principios de julio y se confirmará a los seleccionados a mediados de agosto. De allí en adelante, cada participante tendrá aproximadamente un mes y medio para realizar el trabajo y presentarlo.",
+                "Premio ESET UTN. La Facultad Regional Córdoba ha sido invitada a participar en el proyecto elaborado con ESET, empresa europea abocada a la investigación y desarrollo de tecnologías en seguridad informática. Se creó el Premio ESET UTN dirigido a estudiantes y docentes de las Facultades Regionales de la Universidad, posibilitando la participación en eventos y entrenamientos en seguridad antivirus. En esta oportunidad el evento se realizará en Auckland, Nueva Zelanda, y se seleccionará un docente y un alumno de la Carrera de Ingeniería en Sistemas de Información. En el link pueden verse las consideraciones, detalle del viaje, requisito, cronograma y comité de selección. Los interesados deben dejar en la Secretaría del Departamento de Ingeniería en Sistemas de Información un sobre dirigido a Ing. Roberto Muñoz – Secretario de Coordinación y Control de Gestión, que contenga: Nota firmada expresando su interés en participar y Curriculum Vitae actualizado.",
+                "Fuente: http://argentina.blogalaxia.com/busca/beca",
+                "Fuente: http://weblog.mendoza.edu.ar/informatica/archives/012022.html"
+            ],
+            "links": [
+                {
+                    "label": "Fuente 28/07/2006",
+                    "url": "http://argentina.blogalaxia.com/busca/beca"
+                },
+                {
+                    "label": "Fuente 09/08/2006",
+                    "url": "http://weblog.mendoza.edu.ar/informatica/archives/012022.html"
+                }
+            ]
+        },
+        {
+            "id": "2007-proyecto-layerd",
+            "title": "Proyecto LayerD",
+            "date": "2007-03-16",
+            "category": "research",
+            "image": "./img/news/layerd-logo.gif",
+            "excerpt": "Resumen: El proyecto plantea como objetivo el desarrollo de un conjunto de herramientas y técnicas de programación que permitan implementar un framework de desarrollo de software de próxima generación. Se considera como sistemas de desarrollo de “próxima generación” a herramientas y técnicas que incluyan métodos para Meta-Programación, Reflexión, Generación de Código automatizada, Programas Auto-Modificables, y en general cualquier técnica o herramienta que aumente el nivel de abstracción del software implementado. El proyecto propone el desarrollo de un framework divido en capas construidas encima de las tecnologías de desarrollo populares utilizadas en la actualidad. La capa superior se compone de Meta-Lenguajes de muy alto nivel, seguida de una capa intermedia compuesta por un lenguaje denominado ZOE, el cual es un lenguaje orientado a objetos con capacidades de Meta-Programación y un diseño modular extensible, finalmente la capa inferior se compone de generadores de código modulares para diferentes plataformas en uso actualmente.",
+            "content": [
+                "Desarrollos iniciales y Dirección:<br>- Alexis A. Ferreyra, Analista en Sistemas de Información.",
+                "Investigadores:<br>- Ing. Forchino, Lucas<br>- Odasso, Demián<br>- Romero, Alejandro",
+                "Contacto:<br>- E-mail: alexis.ferreyra@yahoo.com<br>- Teléfono: +54 (0351) 15 459 5219<br>- Laboratorio de Investigación de Software de la Universidad Tecnológica Nacional Facultad Regional Córdoba – DIR: Maestro M. López esq. Cruz Roja Argentina. Ciudad Universitaria - CP (X5016ZAA)",
+                "Sitio Web: http://layerd.net"
+            ],
+            "links": [
+                {
+                    "label": "Sitio Web",
+                    "url": "http://layerd.net"
+                }
+            ]
+        },
+        {
+            "id": "2005-ocio-digital",
+            "title": "El ocio digital según Microsoft",
+            "date": "2005-06-28",
+            "category": "publications",
+            "image": "./img/news/hogar.gif",
+            "excerpt": "Bill Gates le declara la guerra a la TV con su propuesta de sistema operativo para PCs de salón.",
+            "content": [
+                "El pasado mes de septiembre, la conocida empresa de Redmon de la mano de su fundador, Bill Gates, lanzó al mundo su nueva creación con la que parece va a provocar una nueva revolución, aunque esta vez parece que no se va a reducir al mundillo informático. La nueva criatura a la que nos referimos es Windows XP Media Center Edition, o XP MCE como se conoce familiarmente. El objetivo de este sistema operativo es convertir el PC en un electrodoméstico sencillo de manejar, repleto de funcionalidades y cuyo hábitat natural sea el salón de nuestra casa. El problema que encontramos con este nuevo gestor de contenidos es que requiere de un hardware específico que cumpla las estrictas directrices impuestas por Microsoft.",
+                "Por el momento este sistema no se va a distribuir de forma independiente o en formato retail, caja y manuales en un pack. La razón es que, a pesar de las mejoras sufridas en la versión 2005, se trata de un SO todavía bastante difícil de configurar ya que no es compatible con la mayoría del hardware que hay en el mercado, tanto controladoras internas como periféricos. Por esta razón, Microsoft lo está distribuyendo sólo entre aquellos fabricantes que hayan obtenido con sus soluciones la certificación Media Center PC oportuna. Estos equipos (sobremesa y portátiles), que en Estados Unidos ya están comercializando firmas como Acer, HP y otros ensambladores locales por debajo de los mil dólares, han de contar con unos requisitos previos que hagan realidad el concepto MCE. De entrada, deben disponer de un mando a distancia, que permita al usuario desplazarse con total libertad por la pantalla y las numerosas opciones sin tener que utilizar el teclado o el ratón. Además, es preciso que incluyan una sintonizadota de TV (ya sea digital o analógica), de radio FM, salidas de vídeo compuesto o DVI (siempre que vayamos a conectarlo a la TV), algún tipo de conexión a Internet y otros detalles recomendables, como lector de tarjetas de memoria Flash, conexiones FireWire, etc. Esto ya nos proporciona algunas pistas sobre lo que podemos hacer con el nuevo sistema operativo.",
+                "Si es habitual que con la televisión y el vídeo haya peleas con el mando, lo del MCE puede llegar a ser una guerra abierta entre los miembros de la familia por el control de los contenidos. Moviéndonos por los diferentes menús, vemos cómo podemos ver la TV en los canales disponibles, consultar la programación, grabar desde las fuentes de vídeo disponibles (incluso mientras vemos otro canal), ver DVD-Vídeo, escuchar la radio (sólo en la banda de FM) y la música digitalizada (MP3, WMA, etc.), visualizar las imágenes previamente guardadas o descargadas desde la cámara digital, visionar los vídeos caseros realizados con nuestra cámara DV, e incluso disfrutar de aplicaciones a medida para el entorno o de servicios on-line de toda clase. Se convierte, pues, en un verdadero centro multimedia digital. En lo que respecta a la función de televisión, bajo este epígrafe del menú, accederemos a la posibilidad de disfrutar de TV en directo desde la fuente que hayamos instalado y configurado. Así, aunque lo más sencillo será tener una capturadora analógica convencional, sería factible utilizar televisión por cable o satélite con sólo contar con los decodificadores y conexiones pertinentes. Esta variedad de fuentes y dificultad para configurarlas es una de las razones por las cuales no se permite al usuario la opción de comprar el sistema e instalarlo en cualquier configuración. También desde esta pantalla descubrimos cómo acceder a la programación de televisión, información que se descarga al momento desde Internet y que veremos de manera muy legible y sencilla. Evidentemente, esta función sólo esta disponible para el mercado estadounidense (y sus canales), pero es cuestión de tiempo que Microsoft se ponga manos a la obra, traduzca todo el sistema y llegue a los acuerdos pertinentes para ofrecer todas las funcionalidades con información local. Por último, podemos grabar los diferentes programas que nos interesen, incluso realizando programaciones a distintas horas. Y ello, como ya hemos dicho, incluso mientras disfrutamos de otro canal diferente o utilizamos cualquier otra función del MCE. Para ello, eso sí, será necesario contar con un generoso disco duro capaz de almacenar muchas horas de vídeo. De esta forma, podremos volver a visionar las grabaciones realizadas siempre que lo deseemos.",
+                "Fuente: http://www.pc-actual.com/Actualidad/Reportajes/Inform%C3%A1tica_personal/Windows/20050613041"
+            ],
+            "links": [
+                {
+                    "label": "Fuente PC Actual",
+                    "url": "http://www.pc-actual.com/Actualidad/Reportajes/Inform%C3%A1tica_personal/Windows/20050613041"
+                }
+            ]
+        }
+    ],
+    "upcomingEvents": [
+        {
+            "title": "CNEISI 2007",
+            "date": "2007-05-22",
+            "location": "UTN FRC, Córdoba",
+            "description": "Congreso Nacional de Estudiantes de Ingeniería en Sistemas de Información realizado los días 22, 23 y 24 de mayo de 2007 en la Facultad Regional Córdoba."
+        },
+        {
+            "title": "JIDIS 2007",
+            "date": "2007-05-15",
+            "location": "UTN FRC, Córdoba",
+            "description": "2das Jornadas de Investigación y Desarrollo en Ingeniería de Software organizadas por la UTN y Microsoft Argentina durante los días 15 y 16 de mayo de 2007."
+        },
+        {
+            "title": "WICC 2007",
+            "date": "2007-05-01",
+            "location": "Trelew, Chubut",
+            "description": "IX Workshop de Investigadores en Ciencias de la Computación; participaron Julio Castillo y Marina Cárdenas con el proyecto 'Sistema de Tiempo Real Semi-Soft usando RUP'."
+        },
+        {
+            "title": "JIDIS 2008",
+            "date": "2008-05-21",
+            "location": "UADE, Buenos Aires",
+            "description": "3ras Jornadas de Investigación y Desarrollo en Ingeniería de Software realizadas los días 21 y 22 de mayo de 2008 con participación del LIS."
+        }
+    ]
+}

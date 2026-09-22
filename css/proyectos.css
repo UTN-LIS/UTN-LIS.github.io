@@ -1,0 +1,246 @@
+/* ============================================
+    LIS - Projects Page Styles (proyectos.css)
+    Styles for the projects page including:
+    - Year selector for filtering projects
+    - Projects grid and project cards
+    - Responsive design for mobile devices
+    ============================================ */
+
+/* Year selector styles - consistent with form components */
+.select-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: var(--spacing-lg);
+}
+
+.select-container select {
+    appearance: none;
+    background: var(--bg-white);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-sm) var(--spacing-lg) var(--spacing-sm) var(--spacing-md);
+    font-family: inherit;
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+    cursor: pointer;
+    min-width: 200px;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-xs);
+}
+
+.select-container select:focus {
+    outline: none;
+    border-color: var(--border-focus);
+    box-shadow: 0 0 0 3px rgba(10, 37, 64, 0.1);
+}
+
+.select-container select:hover {
+    border-color: var(--primary-hover);
+    box-shadow: var(--shadow-sm);
+}
+
+.select-arrow {
+    position: absolute;
+    right: var(--spacing-md);
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    transition: color var(--transition-fast);
+}
+
+.select-container:hover .select-arrow {
+    color: var(--primary-color);
+}
+
+/* Projects grid - responsive and consistent */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+/* Project cards - using common card system */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Project card header */
+.project-card-header {
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, var(--bg-light), var(--primary-light));
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+}
+
+.project-card-title {
+    font-family: var(--font-family-heading, 'Merriweather', serif);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin: 0;
+    line-height: var(--line-height-tight);
+    flex: 1;
+}
+
+/* Project card content */
+.project-card-content {
+    padding: var(--spacing-lg);
+    flex: 1;
+}
+
+.project-abstract {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Project related links */
+.project-links {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-light);
+}
+
+.project-links h4 {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.project-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.project-links a {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+/* Project card footer */
+.project-card-footer {
+    padding: var(--spacing-lg);
+    background: var(--bg-light);
+    border-top: 1px solid var(--border-light);
+}
+
+/* Publications section */
+.project-publications {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-light);
+}
+
+.publications-count {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.publication-item:hover {
+    background: var(--primary-light);
+    border-left-color: var(--primary-color);
+}
+
+/* Responsive design - consistent breakpoints */
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        gap: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--spacing-md);
+    }
+
+    .project-card {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .project-card-header {
+        padding: var(--spacing-md);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+
+    .project-card-title {
+        font-size: var(--font-size-lg);
+    }
+
+    .project-status-chip {
+        align-self: flex-end;
+    }
+
+    .project-card-content {
+        padding: var(--spacing-md);
+    }
+
+    .project-card-footer {
+        padding: var(--spacing-md);
+    }
+
+    .select-container select {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    .project-card {
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .project-card-header {
+        padding: var(--spacing-sm);
+    }
+
+    .project-card-title {
+        font-size: var(--font-size-base);
+    }
+
+    .project-card-content {
+        padding: var(--spacing-sm);
+    }
+
+    .project-card-footer {
+        padding: var(--spacing-sm);
+    }
+}
+

@@ -1,0 +1,568 @@
+{
+    "2005": {
+        "title": "Equipo 2005",
+        "description": "Staff del Laboratorio de Investigación de Software 2005",
+        "personal": [
+            {
+                "name": "Juan Carlos Vazquez",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Cesar Martinez Spessot",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Daniel Albrieu",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Dario Armella",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Iglesias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Felipe Stefolani",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Jose Mauricio Silclir",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Castillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Leticia Constable",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Mario Groppo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2006": {
+        "title": "Equipo 2006",
+        "description": "Staff del Laboratorio de Investigación de Software 2006",
+        "personal": [
+            {
+                "name": "Juan Carlos Vazquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Cesar Martinez Spessot",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Daniel Albrieu",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Iglesias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Fernando Marchese",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Javier Dall'Amore",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Castillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucas Bustos",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marcos Arregui",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Martin Farias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Paula Sosa",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Romina Gordillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Susana Liendo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Susana Palacios",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2007": {
+        "title": "Equipo 2007",
+        "description": "Staff del Laboratorio de Investigación de Software 2007",
+        "personal": [
+            {
+                "name": "Juan Carlos Vazquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Cesar Martinez Spessot",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Daniel Albrieu",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Iglesias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Fernando Marchese",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Ivan Scandolo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Javier Dall'Amore",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Castillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucas Bustos",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Luis Rogero",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Martin Farias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Paula Sosa",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Susana Liendo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Romina Gordillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2008": {
+        "title": "Equipo 2008",
+        "description": "Staff del Laboratorio de Investigación de Software 2008",
+        "personal": [
+            {
+                "name": "Juan Carlos Vazquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Cesar Martinez Spessot",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Daniel Albrieu",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Fernando Marchese",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Ivan Scandolo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Javier Dall'Amore",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Castillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucas Bustos",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Paula Sosa",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Romina Gordillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Susana Liendo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2009": {
+        "title": "Equipo 2009",
+        "description": "Staff del Laboratorio de Investigación de Software 2009 (segunda etapa)",
+        "personal": [
+            {
+                "name": "Juan Carlos Vázquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Javier Castillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucas Bustos",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Javier Dall'Amore",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Martín Farias",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Romina Gordillo",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2010": {
+        "title": "Equipo 2010",
+        "description": "Staff del Laboratorio de Investigación de Software 2010)",
+        "personal": [
+            { "name": "Juan Carlos Vázquez", "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología", "photo": "./img/avatar-default.png" },
+            { "name": "Julio Javier Castillo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Lucas Bustos", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Marina Cardenas", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alejandra Di Gionantonio", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alexis Ferreyra", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Romina Gordillo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Jenny Mollinedo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Diego Serrano", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Carlos Altamirano", "role": "Becario/a", "photo": "./img/avatar-default.png" },
+            { "name": "Luciano Lamonica", "role": "Becario/a", "photo": "./img/avatar-default.png" }
+        ]
+    },
+    "2011": {
+        "title": "Equipo 2011",
+        "description": "Staff del Laboratorio de Investigación de Software 2011)",
+        "personal": [
+            { "name": "Juan Carlos Vázquez", "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología", "photo": "./img/avatar-default.png" },
+            { "name": "Julio Javier Castillo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Juan Cabral", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Marina Cardenas", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alejandra Di Gionantonio", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alexis Ferreyra", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Romina Gordillo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Jenny Mollinedo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Diego Serrano", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Sebastian Villena Ruiz", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Carlos Altamirano", "role": "Becario/a", "photo": "./img/avatar-default.png" },
+            { "name": "Luciano Lamonica", "role": "Becario/a", "photo": "./img/avatar-default.png" },
+            { "name": "Lucas Pacheco", "role": "Becario/a", "photo": "./img/avatar-default.png" }
+        ]
+    },
+    "2012": {
+        "title": "Equipo 2012",
+        "description": "Staff del Laboratorio de Investigación de Software 2012",
+        "personal": [
+            { "name": "Juan Carlos Vázquez", "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología", "photo": "./img/avatar-default.png" },
+            { "name": "Julio Javier Castillo", "role": "Jefe del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Marina Cardenas", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alejandra Di Gionantonio", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Alexis Ferreyra", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Martín Gramática", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Luciano Lamonica", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Jenny Mollinedo", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Diego Serrano", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Sebastian Villena Ruiz", "role": "Personal del Laboratorio", "photo": "./img/avatar-default.png" },
+            { "name": "Miriam Hazuda", "role": "Becario/a", "photo": "./img/avatar-default.png" },
+            { "name": "Veronica Rodriguez", "role": "Becario/a", "photo": "./img/avatar-default.png" }
+        ]
+    },
+    "2013": {
+        "title": "Equipo 2013",
+        "description": "Equipo del Laboratorio de Investigación de Software 2013",
+        "personal": [
+            {
+                "name": "Juan Carlos Vázquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Javier Castillo",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Martín Gramática",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucio Lamonica",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Osvaldo Casco",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Sebastian Villena Ruiz",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Agustín Ruiz",
+                "role": "Becario/a",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Eliana García",
+                "role": "Becario/a",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    },
+    "2014": {
+        "title": "Equipo 2014",
+        "description": "Equipo del Laboratorio de Investigación de Software 2014",
+        "personal": [
+            {
+                "name": "Juan Carlos Vázquez",
+                "role": "Secretario de Promoción de Investigaciones y Desarrollo en Ciencia y Tecnología",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Julio Javier Castillo",
+                "role": "Jefe del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Marina Cardenas",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alejandra Di Gionantonio",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Alexis Ferreyra",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Martín Gramática",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Lucio Lamonica",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Osvaldo Casco",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            },
+            {
+                "name": "Diego Serrano",
+                "role": "Personal del Laboratorio",
+                "photo": "./img/avatar-default.png"
+            }
+        ]
+    }
+}

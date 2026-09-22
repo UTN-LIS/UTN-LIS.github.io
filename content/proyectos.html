@@ -1,0 +1,42 @@
+<!-- Hero section for Projects page -->
+<section class="hero-section" aria-labelledby="projects-title">
+  <div class="container">
+    <h1 id="projects-title">Proyectos</h1>
+  </div>
+</section>
+
+<!-- Year selector -->
+<section class="section" aria-labelledby="projects-by-year-title">
+  <div class="container">
+    <h2 id="projects-by-year-title" class="section-title">Proyectos por año</h2>
+    <p>Seleccione un año para consultar los proyectos desarrollados en ese período.</p>
+
+    <div class="select-container">
+      <select id="year-select" aria-label="Seleccionar año de proyectos">
+        <!-- Options generated dynamically by ProjectsModule -->
+      </select>
+      <div class="select-arrow" aria-hidden="true">▼</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section id="projects" class="section" aria-labelledby="projects-list-title">
+  <div class="container">
+    <h2 id="projects-list-title" class="section-title">Proyectos</h2>
+    <div class="projects-grid" aria-live="polite" aria-busy="true">
+      <div class="loading-message">
+        <p>Seleccione un año para visualizar los proyectos correspondientes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to action section -->
+<section class="section bg-neutral-50">
+  <div class="container">
+    <h2 class="section-title">Presentación de proyectos</h2>
+    <p>Si desea presentar un proyecto, descargue el formulario APIDCyT y envíelo al laboratorio.</p>
+    <a href="./Archivos/APIDCyT.zip" class="btn-primary" download>Descargar formulario</a>
+  </div>
+</section>
