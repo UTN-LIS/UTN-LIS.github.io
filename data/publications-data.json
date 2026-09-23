@@ -131,8 +131,8 @@
     },
     {
       "id": "paper-2007-yatel-lanzamiento",
-      "origin": "proyect",
-      "year": "----",
+      "origin": "news-item",
+      "year": "2007",
       "title": "Lanzamiento de Yatel",
       "body": "Yatel es el fruto del trabajo del grupo de investigación en minería de datos de la UTN FRC. Es un motor de base de datos para BI (wharehouse + servidor de acceso remoto) con una estructura llamada OLAP de redes multidimensionales (MN-OLAP).",
       "venue": "Lanzamiento",

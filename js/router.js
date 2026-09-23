@@ -110,7 +110,7 @@ class Router {
   _handleRouteFromHash() {
     const { page, params } = this._parseHash();
     if (!this.VALID_PAGES.has(page)) {
-      this._showError("PÃ¡gina no encontrada");
+      this._showError("Página no encontrada");
       return this.navigateTo("home");
     }
     // Avoid work if no substantive changes
@@ -144,7 +144,7 @@ class Router {
     this._showLoading(true);
     const url = this._contentUrlFor(page, params);
 
-    // CachÃ© en memoria (y opcionalmente global)
+    // Caché en memoria (y opcionalmente global)
     const now = Date.now();
     if (this.config.CACHE_ENABLED) {
       const entry = this.cache.get(url);
@@ -157,7 +157,7 @@ class Router {
       }
     }
 
-    // Fetch con timeout y cache-buster si cachÃ© deshabilitada
+    // Fetch con timeout y cache-buster si caché deshabilitada
     const controller = new AbortController();
     const toId = setTimeout(() => controller.abort(), this.config.LOADING_TIMEOUT);
     const fetchUrl = this.config.CACHE_ENABLED ? url : `${url}?t=${Date.now()}`;
@@ -248,25 +248,25 @@ class Router {
     if (!this.contentContainer) return;
     this.contentContainer.innerHTML = `
       <div class="error-message">
-        <h2>âš ï¸ Error</h2>
+        <h2>⚠️ Error</h2>
         <p>${message}</p>
-        <button class="btn-primary" onclick="location.reload()">Recargar PÃ¡gina</button>
+        <button class="btn-primary" onclick="location.reload()">Recargar Página</button>
       </div>`;
   }
 
   _handleLoadError(error) {
-    if (error?.name === "AbortError") return this._showError("Tiempo de carga agotado. Verifica tu conexiÃ³n.");
+    if (error?.name === "AbortError") return this._showError("Tiempo de carga agotado. Verifica tu conexión.");
     if (typeof error?.status === "number") {
       if (error.status === 404) {
-        this._showError("PÃ¡gina no encontrada. Redirigiendo al inicio...");
+        this._showError("Página no encontrada. Redirigiendo al inicio...");
         return setTimeout(() => this.navigateTo("home"), 1200);
       }
-      if (error.status >= 500) return this._showError("Error del servidor. Intenta recargar la pÃ¡gina.");
+      if (error.status >= 500) return this._showError("Error del servidor. Intenta recargar la página.");
     }
-    this._showError("Error al cargar el contenido. Intenta recargar la pÃ¡gina.");
+    this._showError("Error al cargar el contenido. Intenta recargar la página.");
   }
 
-  /* ---------- MÃ³dulos por pÃ¡gina ---------- */
+  /* ---------- Módulos por página ---------- */
 
   _executePageScripts(page, params) {
     const handlers = {

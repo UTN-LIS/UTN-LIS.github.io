@@ -286,7 +286,8 @@ class ResearchModule {
   _pubCard(pub) {
     const typeLabel = pub.type === "journal" ? "Revista" : "Conferencia";
     const authors = Array.isArray(pub.authors) ? pub.authors.join(", ") : (pub.authors ?? "");
-    const year = pub.year ? `, ${pub.year}` : "";
+    const yearAlreadyInVenue = pub.venue && pub.year && pub.venue.includes(String(pub.year));
+    const year = pub.year && !yearAlreadyInVenue ? `, ${pub.year}` : "";
     const venue = pub.venue ? `${pub.venue}${year} (${typeLabel})` : `${year} (${typeLabel})`;
     const link = pub.url || (pub.doi ? `https://doi.org/${pub.doi}` : null);
 

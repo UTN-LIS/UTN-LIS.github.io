@@ -120,23 +120,27 @@
   color: var(--text-secondary); margin: 0 0 var(--spacing-sm);
 }
 .research-group-projects__list {
-  list-style: none; margin: 0; padding: 0;
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: .3rem .75rem;
-  max-height: 260px; overflow-y: auto;
+  list-style: none; margin: 0; padding: .3rem .3rem .3rem 0;
+  display: flex; flex-wrap: wrap; gap: .55rem;
+  max-height: 280px; overflow-y: auto;
 }
 .research-group-projects__list a {
-  display: block;
-  color: var(--text-secondary);
+  display: inline-flex; align-items: center;
+  color: var(--primary-color);
+  background: rgba(17,34,64,.05);
+  border: 1px solid rgba(17,34,64,.08);
   text-decoration: none;
-  font-size: .9rem;
-  padding: .2rem 0;
-  border-bottom: 1px dotted transparent;
-  transition: color var(--transition-fast), border-color var(--transition-fast);
+  font-size: .85rem; font-weight: 500;
+  line-height: 1.3;
+  padding: .4rem .9rem;
+  border-radius: var(--border-radius-full);
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
 }
 .research-group-projects__list a:hover {
-  color: var(--primary-color);
-  border-bottom-color: var(--primary-color);
+  color: var(--text-inverse);
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
 }
 
 /* ===== Methodology ===== */
@@ -147,8 +151,12 @@
   border-radius: var(--border-radius-xl);
 }
 .methodology-content {
-  display: grid; grid-template-columns: 2fr 1fr; gap: var(--spacing-3xl); align-items: center;
+  display: grid; grid-template-columns: 1fr; gap: var(--spacing-3xl); align-items: center;
 }
+.methodology-content:has(.methodology-image img) {
+  grid-template-columns: 2fr 1fr;
+}
+.methodology-image:not(:has(img)) { display: none; }
 .methodology-text h3 {
   color: var(--text-primary);
   margin: 0 0 var(--spacing-lg);
@@ -230,6 +238,7 @@
   display: flex; flex-wrap: wrap; gap: var(--spacing-md);
   font-size: .85rem; color: var(--text-secondary);
   border-top: 1px solid rgba(0,0,0,.06); padding-top: var(--spacing-sm);
+  margin-top: auto;
 }
 .project-repos { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); margin-top: var(--spacing-sm); }
 .project-repo-link {

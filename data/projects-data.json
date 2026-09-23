@@ -500,66 +500,39 @@
     "proyectos": [
       {
         "title": "Desarrollo de una metodología de aprovechamiento de los metadatos de los diccionarios de datos de las bases de datos relacionales para lograr un generador de sentencias SQL designado Prometeo.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Tecno DB.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Empleo de RUP para el modelado de sistemas de tiempo real distribuido.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Aplicación de técnicas de data mining al estudio de fitopatologías.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Encriptación: el código secreto.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Hemeroteca Keyes.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Website MSLAB.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Proyecto Layer D.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       },
       {
         "title": "Cálculos de ingeniería.",
-        "abstract": "",
-        "links": [
-          "Archivos/Proyectos2007.pdf"
-        ]
+        "abstract": ""
       }
     ]
   },
@@ -676,10 +649,7 @@
           "Director: Marina Elizabeth Cardenas",
           "Co-Director: Ing. Julio Castillo"
         ],
-        "publications": [],
-        "links": [
-          "Archivos/SIMUL.pdf"
-        ]
+        "publications": []
       },
       {
         "title": "S.O.A.C. Fase II (Simulación Orientada al Aprendizaje de Computadoras).",
@@ -688,10 +658,7 @@
           "Director: Marina Elizabeth Cardenas",
           "Co-Director: Ing. Julio Castillo"
         ],
-        "publications": [],
-        "links": [
-          "Archivos/PROYECTO-SOAC2009.pdf"
-        ]
+        "publications": []
       },
       {
         "title": "LEGO Control.",
@@ -843,10 +810,7 @@
           "Director: Marina Elizabeth Cardenas",
           "Co-Director: Ing. Julio Castillo"
         ],
-        "publications": [],
-        "links": [
-          "Archivos/SIMUL.pdf"
-        ]
+        "publications": []
       }
     ]
   },

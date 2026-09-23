@@ -135,14 +135,27 @@ class HomeModule {
       ];
 
       // Optional link to the publication
-      if (pub.url) {
-        const a = this._a("home-latest-item-meta", pub.url, "Acceso");
+      const pubUrl = this._pubLink(pub);
+      if (pubUrl) {
+        const a = this._a("home-latest-item-meta home-latest-link", pubUrl, "Descargar PDF");
         nodes.push(a);
       }
 
       ul.appendChild(this._li(nodes));
     });
     this._replace(this.publicationsList, ul);
+  }
+
+  _pubLink(pub) {
+    if (pub.url) return pub.url;
+    if (Array.isArray(pub.links)) {
+      const first = pub.links.find((l) => (typeof l === "string" ? l : l?.url));
+      if (first) return typeof first === "string" ? first : first.url;
+    }
+    if (pub.links?.pdf) return pub.links.pdf;
+    if (pub.links?.doi) return pub.links.doi;
+    if (pub.doi) return `https://doi.org/${pub.doi}`;
+    return null;
   }
 
   /* ---------------- Events ---------------- */
