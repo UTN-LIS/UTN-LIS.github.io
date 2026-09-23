@@ -91,6 +91,8 @@
   "methodology": {
     "title": "Cómo trabajamos",
     "description": "Los proyectos del laboratorio nacen como iniciativas individuales o de a pequeños grupos, generalmente de estudiantes avanzados, que investigan un problema concreto de forma exploratoria y, cuando el resultado lo amerita, lo transforman en un paper para congresos como CoNaIISI.",
+    "ctaPage": "onboarding",
+    "ctaLabel": "¿Te sumás al laboratorio? Mirá la guía de onboarding",
     "approaches": [
       {
         "icon": "🔍",
@@ -606,6 +608,42 @@
       "year": "2026",
       "type": "conference",
       "url": "./papers/ga2la-analisis-texto-wicc2026.pdf"
+    }
+  ],
+  "researchGroups": [
+    {
+      "id": "transformers",
+      "name": "Transformers",
+      "area": "IA Generativa y Agéntica",
+      "description": "El grupo que reúne la investigación aplicada en inteligencia artificial del laboratorio: modelos de lenguaje, RAG, agentes, fine-tuning y todo lo que hoy se investiga bajo el paraguas de la IA generativa. Todos los proyectos actuales del LIS forman parte de este grupo.",
+      "projects": [
+        "Resolución de Problemas Algorítmicos con LLMs",
+        "RAG Aplicado a Casos de Uso Diversos",
+        "Prompts de IA para Generación de Video",
+        "IA Aplicada a Experiencia de Usuario (AI UX)",
+        "Servidor MCP para Pronóstico del Clima",
+        "Corrección de Ejercicios de Unión con Flechas",
+        "The Oracle: Comparación de Código con IA",
+        "Herramientas GA2LA para Análisis de Texto y Detección de Similitudes",
+        "Embeddings de Pares Problema-Solución",
+        "Chat²",
+        "Fine-tuning y RAG Local",
+        "Tokenizador",
+        "Automatización del Análisis de Puntos de Función",
+        "Proyecto AVE — Asistente Virtual de Estudio",
+        "Mapas Conceptuales Automáticos con Modelos de Lenguaje Pequeños",
+        "Benchmark de Parsers de PDF para Sistemas RAG",
+        "Detección de Oportunidades de Patrones de Diseño",
+        "Auditoría y Detección de Vulnerabilidades con LLM Locales",
+        "Corrección Automatizada de Exámenes con IA",
+        "Simulación de Entrevistas Organizacionales con IA",
+        "Optimización de Fine-tuning por Auto-destilación (SDFT)",
+        "Detección de Contenido Generado por IA",
+        "RAG Adaptativo Disparado por Entropía para Generación de Código",
+        "Charla de Seguridad en LLMs",
+        "Traducción de Latín con Modelos de Lenguaje Pequeños",
+        "Fundamentos Biológicos de las Redes Neuronales"
+      ]
     }
   ]
 }

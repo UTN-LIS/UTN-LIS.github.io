@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://utn-lis.github.io/sitemap.xml

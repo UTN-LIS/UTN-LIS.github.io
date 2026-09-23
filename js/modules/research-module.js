@@ -17,6 +17,7 @@ class ResearchModule {
 
     // DOM
     this.areasEl = null;        // #research-areas-content
+    this.groupsEl = null;       // #research-groups-content
     this.methodEl = null;       // #methodology-content
     this.projectsEl = null;     // #projects-content
     this.pubsEl = null;         // #recent-publications-content
@@ -26,6 +27,7 @@ class ResearchModule {
     // Handlers
     this._onAreaClick = this._onAreaClick.bind(this);
     this._onProjectClick = this._onProjectClick.bind(this);
+    this._onGroupLinkClick = this._onGroupLinkClick.bind(this);
   }
 
   /* ---------------- Bootstrap ---------------- */
@@ -39,6 +41,7 @@ class ResearchModule {
     await this._ensureData();
     this._renderHero();
     this.renderResearchAreas("all");
+    this.renderResearchGroups();
     this.renderMethodology();
     this.renderCurrentProjects("all");
     this.renderRecentPublications();
@@ -47,9 +50,10 @@ class ResearchModule {
   cleanup() {
     this.areaTabs.forEach((t) => t.removeEventListener("click", this._onAreaClick));
     this.projectTabs.forEach((t) => t.removeEventListener("click", this._onProjectClick));
+    this.groupsEl?.removeEventListener("click", this._onGroupLinkClick);
 
     this.data = null;
-    this.areasEl = this.methodEl = this.projectsEl = this.pubsEl = null;
+    this.areasEl = this.groupsEl = this.methodEl = this.projectsEl = this.pubsEl = null;
     this.areaTabs = this.projectTabs = [];
     this._areaSignature = null;
     this._projSignature = null;
@@ -67,6 +71,7 @@ class ResearchModule {
 
   _grabRefs() {
     this.areasEl = document.getElementById("research-areas-content");
+    this.groupsEl = document.getElementById("research-groups-content");
     this.methodEl = document.getElementById("methodology-content");
     this.projectsEl = document.getElementById("projects-content");
     this.pubsEl = document.getElementById("recent-publications-content");
@@ -83,6 +88,31 @@ class ResearchModule {
       t.removeEventListener("click", this._onProjectClick);
       t.addEventListener("click", this._onProjectClick);
     });
+    this.groupsEl?.removeEventListener("click", this._onGroupLinkClick);
+    this.groupsEl?.addEventListener("click", this._onGroupLinkClick);
+  }
+
+  // Clicking a project name inside a group card scrolls to that project's
+  // card in "Proyectos en Curso" — deliberately NOT a real <a href="#...">
+  // navigation, since the router treats any location.hash change as a page
+  // change and would show a "página no encontrada" error.
+  _onGroupLinkClick(e) {
+    const link = e.target.closest("[data-scroll-to]");
+    if (!link) return;
+    e.preventDefault();
+    this._scrollToProject(link.dataset.scrollTo);
+  }
+
+  _scrollToProject(id) {
+    let el = document.getElementById(id);
+    if (!el) {
+      // Target may be hidden by the current status filter; reset to "all".
+      this._projSignature = null;
+      this.projectTabs.forEach((t) => t.classList.toggle("active", t.dataset.filter === "all"));
+      this.renderCurrentProjects("all");
+      el = document.getElementById(id);
+    }
+    el?.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
   _onAreaClick(e) {
@@ -129,6 +159,11 @@ class ResearchModule {
     this.areasEl.innerHTML = rows.map((a) => this._areaCard(a)).join("");
   }
 
+  renderResearchGroups() {
+    if (!this.groupsEl || !Array.isArray(this.data?.researchGroups)) return;
+    this.groupsEl.innerHTML = this.data.researchGroups.map((g) => this._groupCard(g)).join("");
+  }
+
   renderMethodology() {
     if (!this.methodEl || !this.data?.methodology) return;
     const m = this.data.methodology;
@@ -139,6 +174,7 @@ class ResearchModule {
         <div class="methodology-text">
           <h3>${m.title ?? ""}</h3>
           <p>${m.description ?? ""}</p>
+          ${m.ctaPage ? `<a href="#${m.ctaPage}" class="research-link nav-link" data-page="${m.ctaPage}">${m.ctaLabel ?? "Ver más"} <span aria-hidden="true">→</span></a>` : ""}
           <div class="methodology-approaches">
             ${approaches
               .map(
@@ -198,6 +234,25 @@ class ResearchModule {
       </div>`;
   }
 
+  _groupCard(g) {
+    const projects = Array.isArray(g.projects) ? g.projects : [];
+    return `
+      <article class="research-group-card">
+        <header class="research-group-card__header">
+          <h3>${g.name ?? ""}</h3>
+          ${g.area ? `<span class="research-group-area">${g.area}</span>` : ""}
+        </header>
+        <p class="research-description">${g.description ?? ""}</p>
+        ${projects.length ? `
+        <div class="research-group-projects">
+          <h4>Proyectos (${projects.length})</h4>
+          <ul class="research-group-projects__list">
+            ${projects.map((title) => `<li><a href="#" data-scroll-to="proyecto-${this._slugify(title)}">${title}</a></li>`).join("")}
+          </ul>
+        </div>` : ""}
+      </article>`;
+  }
+
   _projectCard(p) {
     const statusClass = `status-${p.status ?? "unknown"}`;
     const STATUS_LABELS = { active: "En desarrollo", planning: "En planificación", completed: "Finalizado" };
@@ -207,7 +262,7 @@ class ResearchModule {
     const repos = Array.isArray(p.github) ? p.github : (p.github ? [p.github] : []);
 
     return `
-      <div class="project-card" data-status="${p.status ?? ""}">
+      <div class="project-card" id="proyecto-${this._slugify(p.title ?? "")}" data-status="${p.status ?? ""}">
         <div class="project-header">
           <h3>${p.title ?? ""}</h3>
           <span class="project-status ${statusClass}">${statusText}</span>
@@ -257,6 +312,15 @@ class ResearchModule {
     } catch {
       return url;
     }
+  }
+
+  _slugify(text) {
+    return text
+      .toLowerCase()
+      .trim()
+      .replace(/[¿?¡!"'()]/g, "")
+      .replace(/[^a-z0-9áéíóúñü]+/gi, "-")
+      .replace(/^-+|-+$/g, "");
   }
 }
 

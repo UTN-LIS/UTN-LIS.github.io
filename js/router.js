@@ -33,6 +33,7 @@ class Router {
       "proyectos",
       "publicaciones",
       "contactos",
+      "onboarding",
     ]);
 
     if (!this._checkCompatibility()) {
@@ -198,6 +199,7 @@ class Router {
       proyectos: "./content/proyectos.html",
       publicaciones: "./content/publicaciones.html",
       contactos: "./content/contactos.html",
+      onboarding: "./content/onboarding.html",
     };
     return map[page] || "./content/home.html";
   }
@@ -232,7 +234,7 @@ class Router {
       const meta = document.querySelector('meta[name="description"]');
       if (meta && route.description) meta.setAttribute("content", route.description);
     } else {
-      document.title = (cfg.SEO && cfg.SEO.DEFAULT_TITLE) || "LIS Â· UTN-FRC";
+      document.title = (cfg.SEO && cfg.SEO.DEFAULT_TITLE) || "LIS - UTN-FRC";
     }
   }
 
@@ -273,6 +275,7 @@ class Router {
       publicaciones: () => this._initModule("PublicationsModule", "publications-module.js", (inst) => inst.init(params)),
       investigacion: () => this._initModule("ResearchModule", "research-module.js", (inst) => inst.init(params)),
       contactos: () => {/* implement if applicable */},
+      onboarding: () => this._initModule("OnboardingModule", "onboarding-module.js", (inst) => inst.init(params)),
     };
     (handlers[page] || (() => {}))();
   }

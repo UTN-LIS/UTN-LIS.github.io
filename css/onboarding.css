@@ -1,0 +1,169 @@
+/* ============================================
+    LIS - Onboarding page styles (onboarding.css)
+    Long-form article rendered from Markdown, with a
+    sticky table of contents and Mermaid diagrams.
+    ============================================ */
+
+.onboarding-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--spacing-3xl);
+  align-items: start;
+}
+
+/* ===== Table of contents ===== */
+.onboarding-toc {
+  position: sticky;
+  top: var(--spacing-xl);
+  background: var(--bg-white);
+  border: 1px solid rgba(17, 34, 64, 0.08);
+  border-radius: var(--border-radius-xl);
+  padding: var(--spacing-lg);
+  max-height: calc(100vh - var(--spacing-3xl));
+  overflow-y: auto;
+}
+.onboarding-toc__heading {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 0 0 var(--spacing-sm);
+}
+.onboarding-toc__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+.onboarding-toc__ul a {
+  display: block;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  padding: 0.3rem 0.5rem;
+  border-radius: var(--border-radius-md);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.onboarding-toc__ul a:hover {
+  background: rgba(17, 34, 64, 0.06);
+  color: var(--primary-color);
+}
+
+/* ===== Article body ===== */
+.onboarding-article {
+  background: var(--bg-white);
+  border: 1px solid rgba(17, 34, 64, 0.08);
+  border-radius: var(--border-radius-xl);
+  padding: var(--spacing-2xl) var(--spacing-3xl);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.onboarding-article h1 { font-size: var(--font-size-3xl); margin-top: 0; }
+.onboarding-article h2 {
+  font-size: var(--font-size-2xl);
+  margin-top: var(--spacing-3xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid rgba(17, 34, 64, 0.08);
+  scroll-margin-top: var(--spacing-xl);
+}
+.onboarding-article h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.onboarding-article h3 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--spacing-2xl);
+  scroll-margin-top: var(--spacing-xl);
+}
+.onboarding-article h4 {
+  font-size: var(--font-size-lg);
+  margin-top: var(--spacing-lg);
+  scroll-margin-top: var(--spacing-xl);
+}
+.onboarding-article p,
+.onboarding-article li {
+  color: var(--text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+.onboarding-article ul,
+.onboarding-article ol {
+  padding-left: 1.4rem;
+  margin-bottom: var(--spacing-md);
+}
+.onboarding-article li { margin-bottom: var(--spacing-xs); }
+.onboarding-article a { color: var(--primary-color); }
+.onboarding-article strong { color: var(--text-primary); }
+.onboarding-article blockquote {
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-left: 4px solid var(--primary-color);
+  background: rgba(17, 34, 64, 0.04);
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+  color: var(--text-secondary);
+}
+.onboarding-article blockquote p { margin: 0; }
+
+.onboarding-article code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: rgba(17, 34, 64, 0.06);
+  padding: 0.15em 0.4em;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.9em;
+}
+.onboarding-article pre {
+  background: #0f1729;
+  color: #e2e8f0;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  overflow-x: auto;
+  margin: var(--spacing-lg) 0;
+}
+.onboarding-article pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+.onboarding-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-lg) 0;
+  font-size: 0.95rem;
+}
+.onboarding-article th,
+.onboarding-article td {
+  border: 1px solid rgba(17, 34, 64, 0.12);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.onboarding-article th { background: rgba(17, 34, 64, 0.04); }
+
+.onboarding-article hr {
+  border: none;
+  border-top: 1px solid rgba(17, 34, 64, 0.1);
+  margin: var(--spacing-2xl) 0;
+}
+
+/* Mermaid diagrams: center and cap width, scroll on overflow (mobile) */
+.onboarding-article .mermaid {
+  display: flex;
+  justify-content: center;
+  margin: var(--spacing-xl) 0;
+  overflow-x: auto;
+  background: rgba(17, 34, 64, 0.02);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
+}
+.onboarding-article .mermaid svg { max-width: 100%; height: auto; }
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .onboarding-layout { grid-template-columns: 1fr; }
+  .onboarding-toc {
+    position: static;
+    max-height: none;
+  }
+  .onboarding-article { padding: var(--spacing-lg); }
+}

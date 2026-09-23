@@ -1,137 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title id="page-title">LIS - UTN-FRC – Laboratorio de Investigación de Software</title>
-
-  <!-- Basic SEO -->
-  <meta name="description" content="Sitio del Laboratorio de Investigación de Software (LIS) de la UTN-FRC. Investigación aplicada, proyectos y publicaciones.">
-  <meta name="keywords" content="investigación, software, UTN, FRC, proyectos, publicaciones">
-  <meta name="theme-color" content="#0b2b50">
-
-  <!-- Content Security Policy to mitigate XSS -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https:; connect-src 'self' https:;">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/layout.css">
-  <link rel="stylesheet" href="./css/components.css">
-  <link rel="stylesheet" href="./css/pages.css">
-  <link rel="stylesheet" href="./css/investigacion.css">
-  <link rel="stylesheet" href="./css/proyectos.css">
-  <link rel="stylesheet" href="./css/publicaciones.css">
-  <link rel="stylesheet" href="./css/contactos.css">
-  <link rel="stylesheet" href="./css/utilities.css">
-
-
-  <link rel="icon" href="./favicon.ico" sizes="any">
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=./index.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>LIS - Redirigiendo…</title>
+  <link rel="icon" href="./favicon.ico" type="image/png">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      margin:0;
+      display:grid;
+      place-items:center;
+      min-height:100vh;
+    }
+    main { text-align:center; padding:2rem; }
+    .btn {
+      display:inline-block;
+      margin-top:1rem;
+      padding:0.5rem 1rem;
+      border:2px solid #0A2540;
+      border-radius:8px;
+      color:#0A2540;
+      text-decoration:none;
+    }
+    .sr-only {
+      position:absolute;
+      left:-9999px;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+  </style>
+  <script>
+    // Fallback en caso de que el meta refresh no funcione
+    setTimeout(() => {
+      if (location.pathname.indexOf('index.html') === -1) {
+        window.location.replace('./index.html');
+      }
+    }, 500);
+  </script>
 </head>
 <body>
+  <main>
+    <p>Redirigiendo al sitio…</p>
+    <p class="sr-only">Será redirigido automáticamente en un instante.</p>
+    <p><a class="btn" href="./index.html">Ir ahora</a></p>
     <noscript>
-        <div style="padding:1rem;margin:0;background:#fffbdd;border-bottom:1px solid #f2e085;text-align:center">
-        Para una mejor experiencia, habilitá JavaScript. El sitio utiliza navegación SPA.
-        </div>
+      <p><strong>Nota:</strong> Su navegador no soporta JavaScript. Use el botón para continuar.</p>
     </noscript>
-
-    <!-- Header with navigation -->
-    <header class="header" role="navigation" aria-label="Menú principal">
-        <nav class="nav">
-            <a class="nav-logo" href="#home" data-page="home">
-                <img src="./img/logos/utn-logo.png" alt="Logotipo UTN" width="48" height="48">
-                <span>LIS - UTN-FRC</span>
-            </a>
-            <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Mostrar u ocultar menú" aria-expanded="false" aria-controls="primary-navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="nav-menu-wrapper" id="primary-navigation">
-                <ul class="nav-menu" aria-hidden="false">
-                    <li><a href="#home" class="nav-link" data-page="home">Inicio</a></li>
-                    <li><a href="#investigacion" class="nav-link" data-page="investigacion">Investigación</a></li>
-                    <li><a href="#proyectos" class="nav-link" data-page="proyectos">Proyectos</a></li>
-                    <li><a href="#publicaciones" class="nav-link" data-page="publicaciones">Publicaciones</a></li>
-                    <li><a href="#contactos" class="nav-link" data-page="contactos">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Main content area -->
-    <main id="main-content">
-        <!-- Content will be loaded dynamically here -->
-        <div id="content-container">
-            <!-- Loading indicator -->
-            <div id="loading" class="loading">
-                <div class="loading-spinner"></div>
-                <p>Cargando...</p>
-            </div>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section footer-institutional">
-                    <img src="./img/logos/utn-logo.png" alt="Logo UTN" class="footer-logo" width="64" height="64">
-                    <div class="institution-info">
-                        <h3>Laboratorio de Investigación de Software</h3>
-                        <p>Universidad Tecnológica Nacional</p>
-                        <p>Facultad Regional Córdoba</p>
-                    </div>
-                </div>
-
-                <div class="footer-section">
-                    <h4 class="footer-heading">Explorar</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home" class="nav-link" data-page="home">Inicio</a></li>
-                        <li><a href="#investigacion" class="nav-link" data-page="investigacion">Líneas de Investigación</a></li>
-                        <li><a href="#proyectos" class="nav-link" data-page="proyectos">Proyectos</a></li>
-                        <li><a href="#publicaciones" class="nav-link" data-page="publicaciones">Publicaciones</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h4 class="footer-heading">Institucional</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://www.frc.utn.edu.ar" target="_blank" rel="noopener noreferrer">UTN-FRC</a></li>
-                        <li><a href="https://www.utn.edu.ar" target="_blank" rel="noopener noreferrer">UTN Nacional</a></li>
-                        <li><a href="#contactos" class="nav-link" data-page="contactos">Contacto</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section footer-contact">
-                    <h4 class="footer-heading">Ubicación</h4>
-                    <address>
-                        <p><i class="location-icon"></i> Maestro M. López esq. Cruz Roja Argentina</p>
-                        <p>Ciudad Universitaria - Córdoba, Argentina</p>
-                        <p><i class="email-icon"></i> <a href="mailto:investigacionsoftware@gmail.com">investigacionsoftware@gmail.com</a></p>
-                    </address>
-                </div>
-            </div>
-
-            <div class="footer-separator"></div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2025 Laboratorio de Investigación de Software - UTN FRC. Todos los derechos reservados.</p>
-            </div>
-        </div>
-    </footer>
-
-  <!-- Scripts (con defer para no bloquear el render) -->
-
-  <script src="./js/main.js" defer></script>
-  <script src="./js/router.js" defer></script>
-
-  <!-- Components / light initialization -->
-  <script src="./js/components/lazy-load.js" defer></script>
-  <script src="./js/components/init.js" defer></script>
-
-  <!-- Page modules (used by the router) -->
-  <script src="./js/modules/home-module.js" defer></script>
-  <script src="./js/modules/publications-module.js" defer></script>
-  <script src="./js/modules/research-module.js" defer></script>
+  </main>
 </body>
 </html>
