@@ -39,7 +39,8 @@
     padding: var(--spacing-xl) 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     gap: var(--spacing-xl);
     position: relative;
     z-index: 2;
@@ -483,6 +484,7 @@
 .home-latest-card__footer {
     display: flex;
     justify-content: flex-end;
+    margin-top: auto;
 }
 
 .home-latest-link {

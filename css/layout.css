@@ -347,6 +347,11 @@
 .footer-links a:hover { color: #fff; }
 .footer-links a:hover::after { width: 100%; }
 
+/* .nav-link reused here for SPA routing; strip its navbar button padding
+   so footer links line up flush with the plain <a> tags around them */
+.footer-links a.nav-link { padding: 0; border-radius: 0; }
+.footer-links a.nav-link:hover { background: transparent; transform: none; }
+
 .footer-contact address {
   font-style: normal;
   color: rgba(255,255,255,0.7);

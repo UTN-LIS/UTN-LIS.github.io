@@ -6,8 +6,6 @@ class HomeModule {
     this.projectsYearEl = null;
     this.publicationsList = null;
     this.publicationsYearEl = null;
-    this.newsList = null;
-    this.newsYearEl = null;
 
     this._renderToken = 0;
 
@@ -29,22 +27,19 @@ class HomeModule {
     const token = ++this._renderToken;
 
     try {
-      const [projects, publications, news] = await Promise.all([
+      const [projects, publications] = await Promise.all([
         this._loadJSON("./data/projects-data.json", "LISProjectsData"),
         this._loadJSON("./data/publications-data.json", "LISPublicationsData"),
-        this._loadJSON("./data/news-data.json", "LISNewsData"),
       ]);
       if (token !== this._renderToken) return;
 
       this._renderProjects(projects);
       this._renderPublications(publications);
-      this._renderNews(news);
       this._wireLinks();
     } catch (err) {
       console.error("[HomeModule] highlights error:", err);
       this._placeholder(this.projectsList, "No fue posible cargar los proyectos destacados.");
       this._placeholder(this.publicationsList, "No fue posible cargar las publicaciones destacadas.");
-      this._placeholder(this.newsList, "No fue posible cargar las noticias destacadas.");
     } finally {
       this.root?.setAttribute("aria-busy", "false");
       this.root?.querySelector(".home-latest-grid")?.setAttribute("aria-busy", "false");
@@ -58,8 +53,6 @@ class HomeModule {
     this.projectsYearEl = null;
     this.publicationsList = null;
     this.publicationsYearEl = null;
-    this.newsList = null;
-    this.newsYearEl = null;
   }
 
   _grabRefs() {
@@ -68,8 +61,6 @@ class HomeModule {
     this.projectsYearEl = this.$("#home-projects-year");
     this.publicationsList = this.$("#home-publications-list");
     this.publicationsYearEl = this.$("#home-publications-year");
-    this.newsList = this.$("#home-news-list");
-    this.newsYearEl = this.$("#home-news-year");
   }
 
   /* ---------------- Data ---------------- */
@@ -154,59 +145,6 @@ class HomeModule {
     this._replace(this.publicationsList, ul);
   }
 
-  _renderNews(data) {
-    if (!this.newsList || !data) return;
-
-    let newsItems = [];
-    let year = null;
-
-    if (Array.isArray(data)) {
-      newsItems = data;
-    } else if (data.news && Array.isArray(data.news)) {
-      newsItems = data.news;
-    } else {
-      year = this._latestYearKey(data);
-      newsItems = year ? (data[year]?.noticias ?? data[year]?.news ?? []) : [];
-    }
-
-    if (!year && newsItems.length) {
-      const years = newsItems
-        .map((n) => this._parseDate(n.date ?? n.fecha))
-        .filter(Boolean)
-        .map((d) => d.getFullYear())
-        .filter((y) => !Number.isNaN(y));
-      year = years.length ? String(Math.max(...years)) : null;
-    }
-
-    if (this.newsYearEl) this.newsYearEl.textContent = year ? `Año ${year}` : "Recientes";
-    if (!newsItems.length) return this._placeholder(this.newsList, "No se encontraron noticias recientes.");
-
-    const sortedNews = [...newsItems].sort((a, b) => {
-      const da = this._parseDate(a.date ?? a.fecha) ?? new Date(0);
-      const db = this._parseDate(b.date ?? b.fecha) ?? new Date(0);
-      return db - da;
-    });
-
-    const ul = this._ul();
-    sortedNews.slice(0, 4).forEach((n) => {
-      const title = n.title || n.titulo || n.headline || "Sin título";
-      const d = this._parseDate(n.date ?? n.fecha);
-      const dateText = d ? d.toLocaleDateString("es-AR", { year: "numeric", month: "short", day: "numeric" }) : "";
-
-      const nodes = [
-        this._span("home-latest-item-title", title),
-        ...(dateText ? [this._span("home-latest-item-meta", dateText)] : []),
-      ];
-
-      if (Array.isArray(n.links) && n.links[0]?.url) {
-        nodes.push(this._a("home-latest-item-meta", n.links[0].url, n.links[0].label ?? "Ver más"));
-      }
-
-      ul.appendChild(this._li(nodes));
-    });
-    this._replace(this.newsList, ul);
-  }
-
   /* ---------------- Events ---------------- */
 
   _wireLinks() {
@@ -233,7 +171,7 @@ class HomeModule {
   _p(cls, text) { const p = document.createElement("p"); p.className = cls; p.textContent = text ?? ""; return p; }
   _replace(container, el) { container?.replaceChildren(el); }
 
-  /* ---------------- Year / date helpers ---------------- */
+  /* ---------------- Year helpers ---------------- */
 
   _latestYearKey(map) {
     if (!map || typeof map !== "object") return null;
@@ -248,20 +186,6 @@ class HomeModule {
       .map(Number);
     return years.length ? String(Math.max(...years)) : null;
   }
-
-  _parseDate(x) {
-    if (!x) return null;
-    // Accepts ISO, yyyy-mm-dd, and avoids silent Invalid Date
-    const d = new Date(x);
-    if (!Number.isNaN(d.getTime())) return d;
-    // simple fallback for dd/mm/yyyy
-    if (typeof x === "string" && /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(x)) {
-      const [dd, mm, yyyy] = x.split("/").map(Number);
-      const d2 = new Date(yyyy, mm - 1, dd);
-      return Number.isNaN(d2.getTime()) ? null : d2;
-    }
-    return null;
-    }
 }
 
 window.HomeModule = HomeModule;

@@ -1,20 +1,262 @@
 {
   "hero": {
     "title": "Publicaciones y Presentaciones",
-    "subtitle": "Publicaciones (papers) extraídas manualmente de los proyectos. Se eliminaron noticias y contenido promocional." 
+    "subtitle": "Publicaciones (papers) extraídas manualmente de los proyectos. Se eliminaron noticias y contenido promocional."
   },
   "source": "Curado manual desde projects-data.json (publications) - 2007/2008",
   "entries": [
-    { "id": "paper-2007-tecnodb-jidis", "origin": "paper", "year": "2007", "title": "Implementación de un intérprete SQL en managed code para dispositivos móviles", "body": "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, JIDIS 2007, Junio 2007.", "venue": "JIDIS 2007", "project": "TecnoDB", "authors": ["Grupo TecnoDB"] },
-    { "id": "paper-2007-tecnodb-wicc", "origin": "paper", "year": "2007", "title": "Implementación de un intérprete SQL en managed code para dispositivos móviles", "body": "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, WICC 2007, Mayo 2007.", "venue": "WICC 2007", "project": "TecnoDB", "authors": ["Grupo TecnoDB"] },
-    { "id": "paper-2007-sd-cneisi", "origin": "paper", "year": "2007", "title": "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP", "body": "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, CNEISI 2007, Junio 2007.", "venue": "CNEISI 2007", "project": "Sistema Distribuido en Tiempo Real", "authors": ["Julio Castillo", "Marina Cardenas"] },
-    { "id": "paper-2007-sd-wicc", "origin": "paper", "year": "2007", "title": "Sistema Distribuido en tiempo real Semi-soft usando RUP", "body": "Sistema Distribuido en tiempo real Semi-soft usando RUP, Julio Castillo, Marina Cardenas, WICC 2007, Mayo 2007.", "venue": "WICC 2007", "project": "Sistema Distribuido en Tiempo Real", "authors": ["Julio Castillo", "Marina Cardenas"] },
-    { "id": "paper-2007-sd-jidis", "origin": "paper", "year": "2007", "title": "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP", "body": "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, JIDIS 2007, Junio 2007.", "venue": "JIDIS 2007", "project": "Sistema Distribuido en Tiempo Real", "authors": ["Julio Castillo", "Marina Cardenas"] },
-    { "id": "paper-2007-layerd-jidis", "origin": "paper", "year": "2007", "title": "LayerD, Un Framework de Desarrollo (JIDIS)", "body": "LayerD, Un Framework de Desarrollo. Grupo LayerD. II Jornadas de I+D en Ingeniería de Software Córdoba 2007. JIDIS 2007.", "venue": "JIDIS 2007", "project": "LayerD", "authors": ["Grupo LayerD"] },
-    { "id": "paper-2007-layerd-cneisi", "origin": "paper", "year": "2007", "title": "LayerD, Un Framework de Desarrollo (CNEISI)", "body": "LayerD, Un Framework de Desarrollo. Grupo LayerD. Congreso Nacional de Estudiantes en Ingeniería en Sistemas de Información Córdoba 2007. CNEISI 2007.", "venue": "CNEISI 2007", "project": "LayerD", "authors": ["Grupo LayerD"] },
-    { "id": "paper-2008-fresita-clei", "origin": "paper", "year": "2008", "title": "Fresita: una herramienta distribuída para la creación comunitaria de recetas", "body": "Fresita: una herramienta distribuída para la creación comunitaria de recetas. Santa Fe 2008. CLEI 2008.", "venue": "CLEI 2008", "project": "Fresita", "authors": ["Grupo Fresita"] },
-    { "id": "paper-2008-sd-wicc", "origin": "paper", "year": "2008", "title": "Sistema Distribuido en Tiempo Real", "body": "Sistema Distribuido en Tiempo Real, Julio Castillo, Marina Cardenas, WICC 2008, Mayo 2008.", "venue": "WICC 2008", "project": "Sistema Distribuido en Tiempo Real", "authors": ["Julio Castillo", "Marina Cardenas"] },
-    { "id": "paper-2008-pccontroller-jidis", "origin": "paper", "year": "2008", "title": "PcController - Sistema remoto de control", "body": "PcController - Desarrollo de un sistema remoto de control, en tiempo real semisoft y su modelado con la metodología RUP, Julio Castillo, JIDIS 2008, Mayo 2008.", "venue": "JIDIS 2008", "project": "Sistema Distribuido en Tiempo Real", "authors": ["Julio Castillo"] },
-    { "id": "paper-2007-yatel-lanzamiento", "origin": "proyect", "year": "----", "title": "Lanzamiento de Yatel", "body": "Yatel es el fruto del trabajo del grupo de investigación en minería de datos de la UTN FRC. Es un motor de base de datos para BI (wharehouse + servidor de acceso remoto) con una estructura llamada OLAP de redes multidimensionales (MN-OLAP).", "venue": "Lanzamiento", "project": "Yatel", "authors": ["Grupo Yatel"], "links": ["http://getyatel.org" ] }
+    {
+      "id": "paper-2007-tecnodb-jidis",
+      "origin": "paper",
+      "year": "2007",
+      "title": "Implementación de un intérprete SQL en managed code para dispositivos móviles",
+      "body": "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, JIDIS 2007, Junio 2007.",
+      "venue": "JIDIS 2007",
+      "project": "TecnoDB",
+      "authors": [
+        "Grupo TecnoDB"
+      ]
+    },
+    {
+      "id": "paper-2007-tecnodb-wicc",
+      "origin": "paper",
+      "year": "2007",
+      "title": "Implementación de un intérprete SQL en managed code para dispositivos móviles",
+      "body": "Implementación de un intérprete SQL en managed code para dispositivos móviles, Grupo TecnoDB, WICC 2007, Mayo 2007.",
+      "venue": "WICC 2007",
+      "project": "TecnoDB",
+      "authors": [
+        "Grupo TecnoDB"
+      ]
+    },
+    {
+      "id": "paper-2007-sd-cneisi",
+      "origin": "paper",
+      "year": "2007",
+      "title": "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP",
+      "body": "Un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, CNEISI 2007, Junio 2007.",
+      "venue": "CNEISI 2007",
+      "project": "Sistema Distribuido en Tiempo Real",
+      "authors": [
+        "Julio Castillo",
+        "Marina Cardenas"
+      ]
+    },
+    {
+      "id": "paper-2007-sd-wicc",
+      "origin": "paper",
+      "year": "2007",
+      "title": "Sistema Distribuido en tiempo real Semi-soft usando RUP",
+      "body": "Sistema Distribuido en tiempo real Semi-soft usando RUP, Julio Castillo, Marina Cardenas, WICC 2007, Mayo 2007.",
+      "venue": "WICC 2007",
+      "project": "Sistema Distribuido en Tiempo Real",
+      "authors": [
+        "Julio Castillo",
+        "Marina Cardenas"
+      ]
+    },
+    {
+      "id": "paper-2007-sd-jidis",
+      "origin": "paper",
+      "year": "2007",
+      "title": "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP",
+      "body": "Desarrollo de un Sistema Distribuido en tiempo real Semi-soft utilizando RUP, Julio Castillo, Marina Cardenas, JIDIS 2007, Junio 2007.",
+      "venue": "JIDIS 2007",
+      "project": "Sistema Distribuido en Tiempo Real",
+      "authors": [
+        "Julio Castillo",
+        "Marina Cardenas"
+      ]
+    },
+    {
+      "id": "paper-2007-layerd-jidis",
+      "origin": "paper",
+      "year": "2007",
+      "title": "LayerD, Un Framework de Desarrollo (JIDIS)",
+      "body": "LayerD, Un Framework de Desarrollo. Grupo LayerD. II Jornadas de I+D en Ingeniería de Software Córdoba 2007. JIDIS 2007.",
+      "venue": "JIDIS 2007",
+      "project": "LayerD",
+      "authors": [
+        "Grupo LayerD"
+      ]
+    },
+    {
+      "id": "paper-2007-layerd-cneisi",
+      "origin": "paper",
+      "year": "2007",
+      "title": "LayerD, Un Framework de Desarrollo (CNEISI)",
+      "body": "LayerD, Un Framework de Desarrollo. Grupo LayerD. Congreso Nacional de Estudiantes en Ingeniería en Sistemas de Información Córdoba 2007. CNEISI 2007.",
+      "venue": "CNEISI 2007",
+      "project": "LayerD",
+      "authors": [
+        "Grupo LayerD"
+      ]
+    },
+    {
+      "id": "paper-2008-fresita-clei",
+      "origin": "paper",
+      "year": "2008",
+      "title": "Fresita: una herramienta distribuída para la creación comunitaria de recetas",
+      "body": "Fresita: una herramienta distribuída para la creación comunitaria de recetas. Santa Fe 2008. CLEI 2008.",
+      "venue": "CLEI 2008",
+      "project": "Fresita",
+      "authors": [
+        "Grupo Fresita"
+      ]
+    },
+    {
+      "id": "paper-2008-sd-wicc",
+      "origin": "paper",
+      "year": "2008",
+      "title": "Sistema Distribuido en Tiempo Real",
+      "body": "Sistema Distribuido en Tiempo Real, Julio Castillo, Marina Cardenas, WICC 2008, Mayo 2008.",
+      "venue": "WICC 2008",
+      "project": "Sistema Distribuido en Tiempo Real",
+      "authors": [
+        "Julio Castillo",
+        "Marina Cardenas"
+      ]
+    },
+    {
+      "id": "paper-2008-pccontroller-jidis",
+      "origin": "paper",
+      "year": "2008",
+      "title": "PcController - Sistema remoto de control",
+      "body": "PcController - Desarrollo de un sistema remoto de control, en tiempo real semisoft y su modelado con la metodología RUP, Julio Castillo, JIDIS 2008, Mayo 2008.",
+      "venue": "JIDIS 2008",
+      "project": "Sistema Distribuido en Tiempo Real",
+      "authors": [
+        "Julio Castillo"
+      ]
+    },
+    {
+      "id": "paper-2007-yatel-lanzamiento",
+      "origin": "proyect",
+      "year": "----",
+      "title": "Lanzamiento de Yatel",
+      "body": "Yatel es el fruto del trabajo del grupo de investigación en minería de datos de la UTN FRC. Es un motor de base de datos para BI (wharehouse + servidor de acceso remoto) con una estructura llamada OLAP de redes multidimensionales (MN-OLAP).",
+      "venue": "Lanzamiento",
+      "project": "Yatel",
+      "authors": [
+        "Grupo Yatel"
+      ],
+      "links": [
+        "http://getyatel.org"
+      ]
+    },
+    {
+      "id": "paper-2025-koroch-algoritmos-conaiisi",
+      "origin": "paper",
+      "year": "2025",
+      "title": "Impacto de las estrategias de razonamiento y los hiperparámetros de decodificación en la resolución de algoritmos con LLMs",
+      "body": "Impacto de las estrategias de razonamiento y los hiperparámetros de decodificación en la resolución de algoritmos con LLMs, Matías Koroch, CoNaIISI 2025.",
+      "venue": "CoNaIISI 2025",
+      "project": "Resolución de Problemas Algorítmicos con LLMs",
+      "authors": [
+        "Matías Koroch"
+      ]
+    },
+    {
+      "id": "paper-2025-liendo-union-flechas-conaiisi",
+      "origin": "paper",
+      "year": "2025",
+      "title": "Corrección de ejercicios de unión con flechas a través de Machine Learning",
+      "body": "Corrección de ejercicios de unión con flechas a través de Machine Learning, Juan Liendo, CoNaIISI 2025.",
+      "venue": "CoNaIISI 2025",
+      "project": "Corrección de Ejercicios de Unión con Flechas",
+      "authors": [
+        "Juan Liendo"
+      ]
+    },
+    {
+      "id": "paper-2025-britos-puntos-funcion-conaiisi",
+      "origin": "paper",
+      "year": "2025",
+      "title": "Automatización del análisis de Puntos de Función mediante IA: implementación de un Web Service",
+      "body": "Automatización del análisis de Puntos de Función mediante IA: implementación de un Web Service, Sofía Britos, CoNaIISI 2025.",
+      "venue": "CoNaIISI 2025",
+      "project": "Automatización del Análisis de Puntos de Función",
+      "authors": [
+        "Sofía Britos"
+      ]
+    },
+    {
+      "id": "paper-2025-oracle-conaiisi",
+      "origin": "paper",
+      "year": "2025",
+      "title": "The Oracle: comparación de scripts Python con métricas textuales y análisis semántico por IA",
+      "body": "The Oracle: comparación de scripts Python con métricas textuales y análisis semántico por IA, Matías Negrelli, Nicolás Hernández, Emanuel Ravera, CoNaIISI 2025.",
+      "venue": "CoNaIISI 2025",
+      "project": "The Oracle: Comparación de Código con IA",
+      "authors": [
+        "Matías Negrelli",
+        "Nicolás Hernández",
+        "Emanuel Ravera"
+      ]
+    },
+    {
+      "id": "paper-2025-mcp-clima-conaiisi",
+      "origin": "paper",
+      "year": "2025",
+      "title": "Servidor MCP para pronóstico del clima con preprocesamiento OCR",
+      "body": "Servidor MCP para pronóstico del clima con preprocesamiento OCR, Tito Santino Montivero Miotto, CoNaIISI 2025.",
+      "venue": "CoNaIISI 2025",
+      "project": "Servidor MCP para Pronóstico del Clima",
+      "authors": [
+        "Tito Santino Montivero Miotto"
+      ]
+    },
+    {
+      "id": "paper-2026-correccion-examenes-conaiisi",
+      "origin": "paper",
+      "year": "2026",
+      "title": "Estandarización y corrección automática de respuestas abiertas mediante agentes LLM de pequeño tamaño",
+      "body": "Estandarización y corrección automática de respuestas abiertas mediante agentes LLM de pequeño tamaño, Franco Sosa, Santino Montivero, CoNaIISI 2026.",
+      "venue": "CoNaIISI 2026",
+      "project": "Corrección Automatizada de Exámenes con IA",
+      "authors": [
+        "Franco Sosa",
+        "Santino Montivero"
+      ]
+    },
+    {
+      "id": "paper-2026-mapas-conceptuales-conaiisi",
+      "origin": "paper",
+      "year": "2026",
+      "title": "Generación automática de mapas conceptuales con modelos de lenguaje pequeños",
+      "body": "Generación automática de mapas conceptuales con modelos de lenguaje pequeños, Lautaro Gabriel Aldasoro, CoNaIISI 2026 (en preparación).",
+      "venue": "CoNaIISI 2026 (en preparación)",
+      "project": "Mapas Conceptuales Automáticos con Modelos de Lenguaje Pequeños",
+      "authors": [
+        "Lautaro Gabriel Aldasoro"
+      ]
+    },
+    {
+      "id": "paper-2026-benchmark-pdf-parsers",
+      "origin": "paper",
+      "year": "2026",
+      "title": "Benchmark de parsers de PDF para sistemas RAG",
+      "body": "Benchmark de parsers de PDF para sistemas RAG, Ignacio Ciminari, En evaluación (revisión ciega).",
+      "venue": "En evaluación (revisión ciega)",
+      "project": "Benchmark de Parsers de PDF para Sistemas RAG",
+      "authors": [
+        "Ignacio Ciminari"
+      ]
+    },
+    {
+      "id": "paper-2026-ga2la-wicc",
+      "origin": "paper",
+      "year": "2026",
+      "title": "Uso del análisis de texto estructurado y no estructurado para la generación de material de entrenamiento para modelos de IA",
+      "body": "Uso del análisis de texto estructurado y no estructurado para la generación de material de entrenamiento para modelos de IA, Nicolás Hernández, Julio Castillo, Marina Cárdenas, Sofía Britos, WICC 2026.",
+      "venue": "WICC 2026",
+      "project": "Herramientas GA2LA para Análisis de Texto y Detección de Similitudes",
+      "authors": [
+        "Nicolás Hernández",
+        "Julio Castillo",
+        "Marina Cárdenas",
+        "Sofía Britos"
+      ]
+    }
   ]
 }
