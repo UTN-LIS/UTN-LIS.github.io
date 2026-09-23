@@ -242,8 +242,11 @@ class PublicationsModule {
         ${imgs}
         ${links}
        </div>
-      </br>
     `;
+  }
+
+  _icon(url) {
+    return /\.pdf(\?|$)/i.test(url || "") ? "📄" : "🔗";
   }
 
   _links(item) {
@@ -253,9 +256,9 @@ class PublicationsModule {
     if (Array.isArray(item.links)) {
       for (const l of item.links) {
         if (typeof l === "string") {
-          pieces.push(this._a(l, "🔗 Enlace"));
+          pieces.push(this._a(l, `${this._icon(l)} Enlace`));
         } else if (l?.url) {
-          pieces.push(this._a(l.url, `🔗 ${l.label || "Enlace"}`));
+          pieces.push(this._a(l.url, `${this._icon(l.url)} ${l.label || "Enlace"}`));
         }
       }
     }

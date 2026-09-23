@@ -195,7 +195,7 @@ class ProjectsModule {
       const pubs = Array.isArray(p.publications) && p.publications.length
         ? `<div class="project-publications">
              <div class="publications-count">${p.publications.length} publicación${p.publications.length !== 1 ? "es" : ""}</div>
-             <div class="publications-list">${p.publications.map(x => `<div class="publication-item">${x}</div>`).join("")}</div>
+             <div class="publications-list">${p.publications.map(x => this._pubEntry(x)).join("")}</div>
            </div>` : "";
 
       const objectives = Array.isArray(p.objectives) && p.objectives.length
@@ -245,6 +245,13 @@ class ProjectsModule {
   }
 
   /* ---------------- UI helpers ---------------- */
+
+  _pubEntry(x) {
+    if (x && typeof x === "object" && x.url) {
+      return `<div class="publication-item"><a href="${x.url}" target="_blank" rel="noopener noreferrer" class="publication-item-link">📄 ${x.label ?? "Descargar paper"}</a></div>`;
+    }
+    return `<div class="publication-item">${x}</div>`;
+  }
 
   _error(msg) {
     const container = this.projectsContent?.querySelector(".container") || this.projectsContent;

@@ -126,7 +126,8 @@
       "partners": [
         "Matías Koroch"
       ],
-      "startDate": "2024-03-01"
+      "startDate": "2024-03-01",
+      "paperUrl": "./papers/koroch-algoritmos-conaiisi2025.pdf"
     },
     {
       "title": "RAG Aplicado a Casos de Uso Diversos",
@@ -185,7 +186,8 @@
       "partners": [
         "Tito Santino Montivero Miotto"
       ],
-      "startDate": "2025-03-01"
+      "startDate": "2025-03-01",
+      "paperUrl": "./papers/montivero-mcp-clima-conaiisi2025.pdf"
     },
     {
       "title": "Corrección de Ejercicios de Unión con Flechas",
@@ -200,7 +202,8 @@
       "partners": [
         "Juan Liendo"
       ],
-      "startDate": "2025-03-01"
+      "startDate": "2025-03-01",
+      "paperUrl": "./papers/liendo-union-flechas-conaiisi2025.pdf"
     },
     {
       "title": "The Oracle: Comparación de Código con IA",
@@ -217,7 +220,8 @@
         "Nicolás Hernández",
         "Emanuel Ravera"
       ],
-      "startDate": "2025-03-01"
+      "startDate": "2025-03-01",
+      "paperUrl": "./papers/oracle-conaiisi2025.pdf"
     },
     {
       "title": "Herramientas GA2LA para Análisis de Texto y Detección de Similitudes",
@@ -238,7 +242,8 @@
       "startDate": "2024-03-01",
       "github": [
         "https://github.com/UTN-LIS/MCP_Web_Scrapper"
-      ]
+      ],
+      "paperUrl": "./papers/ga2la-analisis-texto-wicc2026.pdf"
     },
     {
       "title": "Embeddings de Pares Problema-Solución",
@@ -313,7 +318,8 @@
       "github": [
         "https://github.com/UTN-LIS/analisis-fpa-back",
         "https://github.com/UTN-LIS/analisis-fpa-front"
-      ]
+      ],
+      "paperUrl": "./papers/britos-puntos-funcion-conaiisi2025.pdf"
     },
     {
       "title": "Proyecto AVE — Asistente Virtual de Estudio",
@@ -344,7 +350,8 @@
       "partners": [
         "Lautaro Gabriel Aldasoro"
       ],
-      "startDate": "2026-03-01"
+      "startDate": "2026-03-01",
+      "paperUrl": "./papers/aldasoro-mapas-conceptuales-conaiisi2026.pdf"
     },
     {
       "title": "Benchmark de Parsers de PDF para Sistemas RAG",
@@ -359,7 +366,8 @@
       "partners": [
         "Ignacio Ciminari"
       ],
-      "startDate": "2026-03-01"
+      "startDate": "2026-03-01",
+      "paperUrl": "./papers/ciminari-benchmark-pdf-parsers.pdf"
     },
     {
       "title": "Detección de Oportunidades de Patrones de Diseño",
@@ -407,7 +415,8 @@
       "startDate": "2026-03-01",
       "github": [
         "https://github.com/UTN-LIS/correccionExamenes"
-      ]
+      ],
+      "paperUrl": "./papers/sosa-montivero-correccion-examenes-conaiisi2026.pdf"
     },
     {
       "title": "Simulación de Entrevistas Organizacionales con IA",

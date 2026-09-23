@@ -170,6 +170,19 @@
     border-left-color: var(--primary-color);
 }
 
+.publication-item-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+}
+
+.publication-item-link:hover {
+    text-decoration: underline;
+}
+
 /* Responsive design - consistent breakpoints */
 @media (max-width: 1024px) {
     .projects-grid {

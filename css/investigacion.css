@@ -240,6 +240,14 @@
   transition: background var(--transition-fast);
 }
 .project-repo-link:hover { background: var(--primary-color); }
+.project-paper-link {
+  display: inline-flex; align-items: center; gap: .3rem;
+  background: rgba(182,147,44,.18); color: #8a6d1f;
+  padding: .3rem .85rem; border-radius: var(--border-radius-full);
+  font-size: .8rem; font-weight: 500; text-decoration: none;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.project-paper-link:hover { background: #8a6d1f; color: #fff; }
 
 /* ===== Recent Publications ===== */
 .recent-publications-section { margin-bottom: var(--spacing-6xl); }

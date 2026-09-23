@@ -275,9 +275,10 @@ class ResearchModule {
           ${partners.length ? `<span class="project-partners">Autores: ${partners.join(", ")}</span>` : ""}
           ${p.startDate ? `<span class="project-timeline">Inicio: ${this._formatMonth(p.startDate)}</span>` : ""}
         </div>
-        ${repos.length ? `
+        ${(repos.length || p.paperUrl) ? `
         <div class="project-repos">
           ${repos.map((url) => `<a href="${url}" class="project-repo-link" target="_blank" rel="noopener noreferrer">💻 ${this._repoName(url)}</a>`).join("")}
+          ${p.paperUrl ? `<a href="${p.paperUrl}" class="project-paper-link" target="_blank" rel="noopener noreferrer">📄 Descargar paper</a>` : ""}
         </div>` : ""}
       </div>`;
   }

@@ -1578,7 +1578,10 @@
         "publications": [
           "CoNaIISI 2024",
           "JAIIO 2025",
-          "CoNaIISI 2025"
+          {
+            "label": "CoNaIISI 2025",
+            "url": "./papers/koroch-algoritmos-conaiisi2025.pdf"
+          }
         ]
       },
       {
@@ -1606,7 +1609,10 @@
         ],
         "publications": [
           "CoNaIISI 2025",
-          "WICC 2026"
+          {
+            "label": "WICC 2026",
+            "url": "./papers/ga2la-analisis-texto-wicc2026.pdf"
+          }
         ]
       }
     ]
@@ -1629,7 +1635,10 @@
           "Tito Santino Montivero Miotto"
         ],
         "publications": [
-          "CoNaIISI 2025"
+          {
+            "label": "CoNaIISI 2025",
+            "url": "./papers/montivero-mcp-clima-conaiisi2025.pdf"
+          }
         ]
       },
       {
@@ -1639,7 +1648,10 @@
           "Juan Liendo"
         ],
         "publications": [
-          "CoNaIISI 2025"
+          {
+            "label": "CoNaIISI 2025",
+            "url": "./papers/liendo-union-flechas-conaiisi2025.pdf"
+          }
         ]
       },
       {
@@ -1651,7 +1663,10 @@
           "Emanuel Ravera"
         ],
         "publications": [
-          "CoNaIISI 2025"
+          {
+            "label": "CoNaIISI 2025",
+            "url": "./papers/oracle-conaiisi2025.pdf"
+          }
         ],
         "links": [
           {
@@ -1695,7 +1710,10 @@
           "Sofía Britos"
         ],
         "publications": [
-          "CoNaIISI 2025",
+          {
+            "label": "CoNaIISI 2025",
+            "url": "./papers/britos-puntos-funcion-conaiisi2025.pdf"
+          },
           "WICC 2026"
         ]
       }
@@ -1721,7 +1739,10 @@
           "Lautaro Gabriel Aldasoro"
         ],
         "publications": [
-          "CoNaIISI 2026 (en preparación)"
+          {
+            "label": "CoNaIISI 2026 (en preparación)",
+            "url": "./papers/aldasoro-mapas-conceptuales-conaiisi2026.pdf"
+          }
         ]
       },
       {
@@ -1731,7 +1752,10 @@
           "Ignacio Ciminari"
         ],
         "publications": [
-          "En evaluación (revisión ciega)"
+          {
+            "label": "En evaluación (revisión ciega)",
+            "url": "./papers/ciminari-benchmark-pdf-parsers.pdf"
+          }
         ]
       },
       {
@@ -1756,7 +1780,10 @@
           "Franco Sosa"
         ],
         "publications": [
-          "CoNaIISI 2026"
+          {
+            "label": "CoNaIISI 2026",
+            "url": "./papers/sosa-montivero-correccion-examenes-conaiisi2026.pdf"
+          }
         ]
       },
       {
