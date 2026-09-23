@@ -154,6 +154,12 @@
       "project": "Resolución de Problemas Algorítmicos con LLMs",
       "authors": [
         "Matías Koroch"
+      ],
+      "links": [
+        {
+          "url": "./papers/koroch-algoritmos-conaiisi2025.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -166,6 +172,12 @@
       "project": "Corrección de Ejercicios de Unión con Flechas",
       "authors": [
         "Juan Liendo"
+      ],
+      "links": [
+        {
+          "url": "./papers/liendo-union-flechas-conaiisi2025.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -178,6 +190,12 @@
       "project": "Automatización del Análisis de Puntos de Función",
       "authors": [
         "Sofía Britos"
+      ],
+      "links": [
+        {
+          "url": "./papers/britos-puntos-funcion-conaiisi2025.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -192,6 +210,12 @@
         "Matías Negrelli",
         "Nicolás Hernández",
         "Emanuel Ravera"
+      ],
+      "links": [
+        {
+          "url": "./papers/oracle-conaiisi2025.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -204,6 +228,12 @@
       "project": "Servidor MCP para Pronóstico del Clima",
       "authors": [
         "Tito Santino Montivero Miotto"
+      ],
+      "links": [
+        {
+          "url": "./papers/montivero-mcp-clima-conaiisi2025.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -217,6 +247,12 @@
       "authors": [
         "Franco Sosa",
         "Santino Montivero"
+      ],
+      "links": [
+        {
+          "url": "./papers/sosa-montivero-correccion-examenes-conaiisi2026.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -229,6 +265,12 @@
       "project": "Mapas Conceptuales Automáticos con Modelos de Lenguaje Pequeños",
       "authors": [
         "Lautaro Gabriel Aldasoro"
+      ],
+      "links": [
+        {
+          "url": "./papers/aldasoro-mapas-conceptuales-conaiisi2026.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -241,6 +283,12 @@
       "project": "Benchmark de Parsers de PDF para Sistemas RAG",
       "authors": [
         "Ignacio Ciminari"
+      ],
+      "links": [
+        {
+          "url": "./papers/ciminari-benchmark-pdf-parsers.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     },
     {
@@ -256,6 +304,12 @@
         "Julio Castillo",
         "Marina Cárdenas",
         "Sofía Britos"
+      ],
+      "links": [
+        {
+          "url": "./papers/ga2la-analisis-texto-wicc2026.pdf",
+          "label": "Descargar PDF"
+        }
       ]
     }
   ]

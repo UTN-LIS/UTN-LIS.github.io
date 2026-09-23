@@ -204,6 +204,7 @@ class ResearchModule {
     const statusText = STATUS_LABELS[p.status] ?? (p.status ?? "");
     const techs = Array.isArray(p.technologies) ? p.technologies : [];
     const partners = Array.isArray(p.partners) ? p.partners : [];
+    const repos = Array.isArray(p.github) ? p.github : (p.github ? [p.github] : []);
 
     return `
       <div class="project-card" data-status="${p.status ?? ""}">
@@ -219,6 +220,10 @@ class ResearchModule {
           ${partners.length ? `<span class="project-partners">Autores: ${partners.join(", ")}</span>` : ""}
           ${p.startDate ? `<span class="project-timeline">Inicio: ${this._formatMonth(p.startDate)}</span>` : ""}
         </div>
+        ${repos.length ? `
+        <div class="project-repos">
+          ${repos.map((url) => `<a href="${url}" class="project-repo-link" target="_blank" rel="noopener noreferrer">💻 ${this._repoName(url)}</a>`).join("")}
+        </div>` : ""}
       </div>`;
   }
 
@@ -227,13 +232,14 @@ class ResearchModule {
     const authors = Array.isArray(pub.authors) ? pub.authors.join(", ") : (pub.authors ?? "");
     const year = pub.year ? `, ${pub.year}` : "";
     const venue = pub.venue ? `${pub.venue}${year} (${typeLabel})` : `${year} (${typeLabel})`;
+    const link = pub.url || (pub.doi ? `https://doi.org/${pub.doi}` : null);
 
     return `
       <div class="publication-preview-item">
         <h4>${pub.title ?? ""}</h4>
         <p class="publication-authors">${authors}</p>
         <p class="publication-venue">${venue}</p>
-        ${pub.doi ? `<a href="https://doi.org/${pub.doi}" class="publication-link" target="_blank" rel="noopener noreferrer">Ver publicación</a>` : ""}
+        ${link ? `<a href="${link}" class="publication-link" target="_blank" rel="noopener noreferrer">${pub.url ? "Descargar PDF" : "Ver publicación"}</a>` : ""}
       </div>`;
   }
 
@@ -243,6 +249,14 @@ class ResearchModule {
     const d = new Date(s);
     if (isNaN(d)) return s || "";
     return d.toLocaleDateString("es-ES", { year: "numeric", month: "short" });
+  }
+
+  _repoName(url) {
+    try {
+      return new URL(url).pathname.replace(/^\//, "");
+    } catch {
+      return url;
+    }
   }
 }
 

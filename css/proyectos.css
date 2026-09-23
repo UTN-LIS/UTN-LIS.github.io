@@ -244,3 +244,60 @@
     }
 }
 
+/* ===== Open Source projects ===== */
+.opensource-section { margin-top: var(--spacing-4xl); }
+.opensource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+}
+.opensource-card {
+    background: var(--bg-white);
+    border-radius: var(--border-radius-xl);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+    padding: var(--spacing-xl);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+.opensource-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+}
+.opensource-card__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+}
+.opensource-card__header h3 {
+    font-family: monospace;
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+    margin: 0;
+    word-break: break-word;
+}
+.opensource-lang {
+    flex-shrink: 0;
+    font-size: .75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: rgba(17, 34, 64, .06);
+    padding: .2rem .6rem;
+    border-radius: var(--border-radius-full);
+    white-space: nowrap;
+}
+.opensource-card p { color: var(--text-secondary); font-size: .95rem; line-height: 1.5; margin: 0; }
+.opensource-related { font-size: .85rem !important; font-style: italic; }
+.opensource-link {
+    margin-top: auto;
+    align-self: flex-start;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: .9rem;
+    text-decoration: none;
+}
+.opensource-link:hover { text-decoration: underline; }
+

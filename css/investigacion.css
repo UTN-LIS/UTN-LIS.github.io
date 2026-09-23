@@ -178,6 +178,15 @@
   font-size: .85rem; color: var(--text-secondary);
   border-top: 1px solid rgba(0,0,0,.06); padding-top: var(--spacing-sm);
 }
+.project-repos { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); margin-top: var(--spacing-sm); }
+.project-repo-link {
+  display: inline-flex; align-items: center; gap: .3rem;
+  background: rgba(17,34,64,.92); color: #fff;
+  padding: .3rem .85rem; border-radius: var(--border-radius-full);
+  font-size: .8rem; font-weight: 500; text-decoration: none;
+  transition: background var(--transition-fast);
+}
+.project-repo-link:hover { background: var(--primary-color); }
 
 /* ===== Recent Publications ===== */
 .recent-publications-section { margin-bottom: var(--spacing-6xl); }
