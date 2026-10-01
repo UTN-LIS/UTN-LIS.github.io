@@ -519,6 +519,26 @@
         "Juan Liendo"
       ],
       "startDate": "2026-03-01"
+    },
+    {
+      "title": "Análisis de Vulnerabilidades en la Extracción de Símbolos Matemáticos en Pipelines RAG",
+      "status": "active",
+      "description": "Investigación sobre la pérdida de símbolos matemáticos al extraer texto de PDFs académicos en pipelines RAG. Se identificó un bug en pdfminer.six, se cuantificó su impacto semántico y se desarrolló un parche correctivo para recuperar los símbolos afectados.",
+      "technologies": [
+        "RAG",
+        "Parsing de documentos",
+        "pdfminer.six",
+        "Sentence Transformers",
+        "Docker",
+        "Ollama"
+      ],
+      "partners": [
+        "Jonas Ceballos"
+      ],
+      "startDate": "2026-07-02",
+      "github": [
+        "https://github.com/Jyiro/lis-interpretacion-simbolos-rag"
+      ]
     }
   ],
   "recentPublications": [
@@ -651,7 +671,8 @@
         "RAG Adaptativo Disparado por Entropía para Generación de Código",
         "Charla de Seguridad en LLMs",
         "Traducción de Latín con Modelos de Lenguaje Pequeños",
-        "Fundamentos Biológicos de las Redes Neuronales"
+        "Fundamentos Biológicos de las Redes Neuronales",
+        "Análisis de Vulnerabilidades en la Extracción de Símbolos Matemáticos en Pipelines RAG"
       ]
     }
   ]
