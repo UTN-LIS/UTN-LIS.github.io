@@ -1,0 +1,45 @@
+<!-- Hero section for News page -->
+<section class="hero-section" aria-labelledby="news-title">
+  <div class="container">
+    <h1 id="news-title">Noticias</h1>
+    <p class="hero-description">
+      Novedades, eventos y logros del laboratorio.
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="news-filters">
+    <div class="filter-tabs" id="news-filters" role="group" aria-label="Filtrar noticias por categoría">
+      <!-- Regenerated dynamically according to the dataset -->
+      <button class="filter-tab active" data-filter="all">Todas</button>
+    </div>
+  </div>
+
+  <div class="news-list" id="news-content" aria-live="polite" aria-busy="true">
+    <div class="loading-message">
+      <p>Cargando noticias...</p>
+    </div>
+  </div>
+
+  <!-- Image gallery (shown only when the dataset has images) -->
+  <section class="news-gallery" id="news-gallery" aria-labelledby="gallery-title" hidden>
+    <div class="section-header">
+      <p class="section-kicker">Galería</p>
+      <h2 id="gallery-title">Momentos del laboratorio</h2>
+    </div>
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Thumbnails generated dynamically by NewsModule -->
+    </div>
+  </section>
+</div>
+
+<dialog class="lightbox" id="gallery-lightbox" aria-label="Imagen ampliada">
+  <button type="button" class="lightbox__close" data-action="close" aria-label="Cerrar">×</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" data-action="prev" aria-label="Imagen anterior">‹</button>
+  <figure class="lightbox__figure">
+    <img class="lightbox__image" src="" alt="">
+    <figcaption class="lightbox__caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox__nav lightbox__nav--next" data-action="next" aria-label="Imagen siguiente">›</button>
+</dialog>
