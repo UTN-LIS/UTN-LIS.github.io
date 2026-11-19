@@ -123,5 +123,32 @@
             "location": "UADE, Buenos Aires",
             "description": "3ras Jornadas de Investigación y Desarrollo en Ingeniería de Software realizadas los días 21 y 22 de mayo de 2008 con participación del LIS."
         }
+    ],
+    "gallery": [
+        {
+            "src": "./img/charla.JPG",
+            "alt": "Auditorio con estudiantes asistiendo a una charla",
+            "caption": "Charla abierta en la facultad"
+        },
+        {
+            "src": "./img/competencia.png",
+            "alt": "Equipos de estudiantes posando junto a sus puestos durante la competencia",
+            "caption": "Competencia interna de programación"
+        },
+        {
+            "src": "./img/Capture1.JPG",
+            "alt": "Grupo de asistentes con credenciales frente a una muestra de pósters",
+            "caption": "Participación en congreso"
+        },
+        {
+            "src": "./img/Capture2.JPG",
+            "alt": "Salón con público frente a dos pantallas de proyección",
+            "caption": "Conferencia en auditorio"
+        },
+        {
+            "src": "./img/Conaiisi2015 - 014.JPG",
+            "alt": "Paneles con pósters de investigación en una sala",
+            "caption": "Sesión de pósters en CoNaIISI 2015"
+        }
     ]
 }

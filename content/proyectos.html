@@ -2,20 +2,24 @@
 <section class="hero-section" aria-labelledby="projects-title">
   <div class="container">
     <h1 id="projects-title">Proyectos</h1>
+    <p class="hero-description">
+      Investigaciones que desarrollaron o están desarrollando nuestros investigadores.
+    </p>
   </div>
 </section>
 
 <!-- Year selector -->
-<section class="section" aria-labelledby="projects-by-year-title">
-  <div class="container">
-    <h2 id="projects-by-year-title" class="section-title">Proyectos por año</h2>
-    <p>Seleccione un año para consultar los proyectos desarrollados en ese período.</p>
-
-    <div class="select-container">
+<section class="section projects-filters" aria-label="Filtrar proyectos">
+  <div class="container projects-toolbar">
+    <div class="search-filter">
+      <label for="project-search">Buscar:</label>
+      <input type="search" id="project-search" placeholder="Título, descripción o autores" autocomplete="off">
+    </div>
+    <div class="year-filter">
+      <label for="year-select">Año:</label>
       <select id="year-select" aria-label="Seleccionar año de proyectos">
         <!-- Options generated dynamically by ProjectsModule -->
       </select>
-      <div class="select-arrow" aria-hidden="true">▼</div>
     </div>
   </div>
 </section>
@@ -123,10 +127,14 @@
 </section>
 
 <!-- Call to action section -->
-<section class="section bg-neutral-50">
+<section class="section cta-section" aria-labelledby="cta-title">
   <div class="container">
-    <h2 class="section-title">Presentación de proyectos</h2>
-    <p>Si desea presentar un proyecto, contáctese con el laboratorio.</p>
-    <a href="#contactos" class="btn-primary nav-link" data-page="contactos">Contáctanos</a>
+    <div class="cta-panel">
+      <p class="cta-kicker">¿Tenés una idea?</p>
+      <h2 id="cta-title">Presentación de proyectos</h2>
+      <p>Si desea presentar un proyecto, contáctese con el laboratorio.</p>
+      <a href="#contactos" class="btn cta-button nav-link" data-page="contactos">Contáctanos</a>
+      <a href="#onboarding" class="cta-kicker cta-secondary nav-link" data-page="onboarding">¿Cómo empezar tu proyecto? →</a>
+    </div>
   </div>
 </section>

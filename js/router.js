@@ -32,6 +32,7 @@ class Router {
       "investigacion",
       "proyectos",
       "publicaciones",
+      "noticias",
       "contactos",
       "onboarding",
     ]);
@@ -198,6 +199,7 @@ class Router {
       investigacion: "./content/investigacion.html",
       proyectos: "./content/proyectos.html",
       publicaciones: "./content/publicaciones.html",
+      noticias: "./content/noticias.html",
       contactos: "./content/contactos.html",
       onboarding: "./content/onboarding.html",
     };
@@ -273,6 +275,7 @@ class Router {
       home: () => this._initHome(),
       proyectos: () => this._initModule("ProjectsModule", "projects-module.js", (inst) => inst.init(params)),
       publicaciones: () => this._initModule("PublicationsModule", "publications-module.js", (inst) => inst.init(params)),
+      noticias: () => this._initModule("NewsModule", "news-module.js", (inst) => inst.init(params)),
       investigacion: () => this._initModule("ResearchModule", "research-module.js", (inst) => inst.init(params)),
       contactos: () => {/* implement if applicable */},
       onboarding: () => this._initModule("OnboardingModule", "onboarding-module.js", (inst) => inst.init(params)),
