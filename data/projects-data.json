@@ -1798,6 +1798,13 @@
         "authors": [
           "Juan Liendo"
         ]
+      },
+      {
+        "title": "Análisis de Vulnerabilidades en la Extracción de Símbolos Matemáticos en Pipelines RAG",
+        "abstract": "Investigación sobre la pérdida de símbolos matemáticos al extraer texto de PDFs académicos en pipelines RAG. Se identificó un bug en pdfminer.six, se cuantificó su impacto semántico y se desarrolló un parche correctivo para recuperar los símbolos afectados.",
+        "authors": [
+          "Jonas Ceballos"
+        ]
       }
     ]
   }
